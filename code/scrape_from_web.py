@@ -18,7 +18,7 @@ for name in names:
     text = name.text
     text = unidecode.unidecode(text)
     restaurants_names.append({
-        'name': text
+        'name': text.lower()
     })
 
 body = requests.get(us_franchies_url)
@@ -31,15 +31,15 @@ for tr in trs:
     text = tds[1].text
     text = unidecode.unidecode(text)
     restaurants_names.append({
-        'name': text
+        'name': text.lower()
     })
 
 json_object = json.dumps(restaurants_names, indent=4)
  
 
-filename = "franchise_restaurants.json.gz"
-# with open("franchise_restaurants.json", "w") as outfile:
-#     outfile.write(json_object)
+filename = "data/franchise_restaurants.json.gz"
+with open("data/franchise_restaurants.json", "w") as outfile:
+    outfile.write(json_object)
 
 with gzip.open(filename, 'wt', encoding='UTF-8') as zipfile:
-    json.dump(json_object, zipfile)
+    zipfile.write(json_object)
