@@ -17,11 +17,11 @@ amenity_schema = types.StructType([
 ])
 
 def main(inputs, output):
-    poi = spark.read.json(inputs, schema=amenity_schema)
-    poi = poi.filter(poi['amenity'] == 'restaurant')
-    poi = poi.withColumn('name', lower(col('name')))
-    poi.show()
-    poi.write.json(output, mode='overwrite', compression='gzip')
+    data = spark.read.json(inputs, schema=amenity_schema)
+    data = data.filter((data['amenity'] == 'restaurant') | (data['amenity'] == 'fast_food'))
+    data = data.withColumn('name', lower(col('name')))
+    data.show()
+    data.write.json(output, mode='overwrite', compression='gzip')
 
 if __name__ == '__main__':
     inputs = sys.argv[1]
