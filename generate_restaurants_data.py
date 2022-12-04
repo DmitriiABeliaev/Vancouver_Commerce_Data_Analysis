@@ -16,7 +16,7 @@ amenity_schema = types.StructType([
     types.StructField('tags', types.MapType(types.StringType(), types.StringType()), nullable=False),
 ])
 
-def main(inputs = 'amenities-vancouver.json.gz', output = 'restaurants'):
+def main(inputs, output):
     poi = spark.read.json(inputs, schema=amenity_schema)
     poi = poi.filter(poi['amenity'] == 'restaurant')
     poi = poi.withColumn('name', lower(col('name')))
