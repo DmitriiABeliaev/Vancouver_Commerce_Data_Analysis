@@ -36,9 +36,9 @@ data_scheme = types.StructType([
      
 def to_float(x):
     if x == "false":
-        return 0
+        return 1 #1 for blue, 0 for red
     elif x == "true":
-        return 1
+        return 0
     else:
         print("bad")
     
@@ -52,7 +52,7 @@ def classify(data):
     #rf
     rf_model = make_pipeline(
         StandardScaler(),
-        RandomForestClassifier(n_estimators=6, max_depth=3, min_samples_leaf=5)
+        RandomForestClassifier(n_estimators=100, max_depth=4, min_samples_leaf=8, class_weight='balanced')
     )
     rf_model.fit(X_train, y_train)
     print(rf_model.score(X_valid, y_valid))
@@ -80,7 +80,7 @@ def classify(data):
     xa, xb = xa.reshape((len(xa), 1)), xb.reshape((len(xb), 1))
     grid = hstack((xa,xb))
     
-    predictions = knn_model.predict(grid)#can change model
+    predictions = rf_model.predict(grid)#can change model
     
     zz = predictions.reshape(xx.shape)
     func = np.vectorize(to_float)
@@ -94,7 +94,7 @@ def classify(data):
     plt.imshow(img, zorder=0, extent= BBox)
     plt.contourf(yy, xx, zz, alpha=0.5, cmap='RdBu')
     #plt.show()
-    plt.savefig('../data/knn.png')#should change name to match model
+    plt.savefig('../data/rf.png')#should change name to match model
     
 
 def main():
