@@ -6,6 +6,17 @@ import geopandas as gpd
 import contextily as ctx
 from shapely.geometry import Point
 
+import numpy as np
+from numpy import hstack
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+
+
 
 
 from pyspark.sql import SparkSession, functions, types, Row
@@ -22,7 +33,70 @@ data_scheme = types.StructType([
     types.StructField('tags', types.MapType(types.StringType(), types.StringType()), nullable=False),
     types.StructField('is_franchise', types.BooleanType(), nullable=False),
 ])
+     
+def to_float(x):
+    if x == "false":
+        return 0
+    elif x == "true":
+        return 1
+    else:
+        print("bad")
     
+def classify(data):
+    X = data[['lat','lon']]#.values
+    y = data['is_franchise']#.values
+    
+#models
+    X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.25, random_state=11)
+    
+    #rf
+    rf_model = make_pipeline(
+        StandardScaler(),
+        RandomForestClassifier(n_estimators=6, max_depth=3, min_samples_leaf=5)
+    )
+    rf_model.fit(X_train, y_train)
+    print(rf_model.score(X_valid, y_valid))
+    
+    #gaussian nb
+    bayes_model = GaussianNB()
+    bayes_model.fit(X_train, y_train)
+    print(bayes_model.score(X_valid, y_valid))
+    
+    #knn
+    knn_model = KNeighborsClassifier(n_neighbors=3)
+    knn_model.fit(X_train, y_train)
+    print(knn_model.score(X_valid, y_valid))
+    
+    
+#plotting
+    BBox = (-123.3000, -122.0000, 49.00, 49.3800)
+    
+    x2 = np.linspace(49.00, 49.3800, 130)
+    y2 = np.linspace(-123.3000, -122.0000, 130)
+
+    xx, yy = np.meshgrid(x2, y2)
+    
+    xa, xb = xx.flatten(), yy.flatten()
+    xa, xb = xa.reshape((len(xa), 1)), xb.reshape((len(xb), 1))
+    grid = hstack((xa,xb))
+    
+    predictions = knn_model.predict(grid)#can change model
+    
+    zz = predictions.reshape(xx.shape)
+    func = np.vectorize(to_float)
+    zz = func(zz)
+    xx = xx.astype(float)
+    yy = yy.astype(float)
+    zz = zz.astype(float)
+    
+    plt.figure(2)
+    img = plt.imread('../data/map.png')
+    plt.imshow(img, zorder=0, extent= BBox)
+    plt.contourf(yy, xx, zz, alpha=0.5, cmap='RdBu')
+    #plt.show()
+    plt.savefig('../data/knn.png')#should change name to match model
+    
+
 def main():
     coordinate_data = spark.read.csv("../data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
     
@@ -74,6 +148,8 @@ def main():
 
     # plt.show()
     plt.savefig('../data/data_mapped.png')
+    
+    classify(all_data)
 
 if __name__ == '__main__':
     main()
