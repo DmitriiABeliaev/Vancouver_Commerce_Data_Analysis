@@ -52,7 +52,7 @@ def classify(data):
     #rf
     rf_model = make_pipeline(
         StandardScaler(),
-        RandomForestClassifier(n_estimators=100, max_depth=4, min_samples_leaf=8, class_weight='balanced')
+        RandomForestClassifier(n_estimators=100, max_depth=3, min_samples_leaf=6, class_weight='balanced')
     )
     rf_model.fit(X_train, y_train)
     print(rf_model.score(X_valid, y_valid))
@@ -63,7 +63,7 @@ def classify(data):
     print(bayes_model.score(X_valid, y_valid))
     
     #knn
-    knn_model = KNeighborsClassifier(n_neighbors=3)
+    knn_model = KNeighborsClassifier(n_neighbors=4)
     knn_model.fit(X_train, y_train)
     print(knn_model.score(X_valid, y_valid))
     
@@ -80,7 +80,7 @@ def classify(data):
     xa, xb = xa.reshape((len(xa), 1)), xb.reshape((len(xb), 1))
     grid = hstack((xa,xb))
     
-    predictions = rf_model.predict(grid)#can change model
+    predictions = knn_model.predict(grid)#can change model
     
     zz = predictions.reshape(xx.shape)
     func = np.vectorize(to_float)
@@ -93,8 +93,11 @@ def classify(data):
     img = plt.imread('../data/map.png')
     plt.imshow(img, zorder=0, extent= BBox)
     plt.contourf(yy, xx, zz, alpha=0.5, cmap='RdBu')
+    #plt.title('RF (balanced)')
+    #plt.title('Gaussian NB')
+    plt.title('KNN (k=4)')
     #plt.show()
-    plt.savefig('../data/rf.png')#should change name to match model
+    plt.savefig('../data/knn.png')#should change name to match model
     
 
 def main():

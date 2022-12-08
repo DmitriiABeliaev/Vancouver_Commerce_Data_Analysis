@@ -1,6 +1,6 @@
 salad loop,49.260953,-123.125704,false
 best bite indian cuisine,49.1266497,-123.1824699,false
-nando's,49.1327053,-123.0991859,false
+nando's,49.1327053,-123.0991859,true
 boston pizza,49.1330103,-123.0955358,true
 mcdonald's,49.2347493,-123.1547249,true
 pho 99,49.2457903,-122.891636,false
@@ -45,7 +45,7 @@ subway,49.1401463,-123.137885,true
 nene chicken,49.2821191,-123.133662,false
 the italians,49.2814778,-123.133602,false
 red burrito,49.2657244,-123.2430971,false
-pita pit,49.2661113,-123.2420861,false
+pita pit,49.2661113,-123.2420861,true
 banana leaf,49.291387,-123.135016,false
 dinesty dumpling house,49.2907725,-123.134078,false
 mcdonald's,49.2906218,-123.133851,true
@@ -67,7 +67,7 @@ pizza hut (takeout),49.1486188,-123.1358921,false
 mcdonald's,49.1330851,-123.0940869,true
 burger king,49.1329977,-123.0973124,true
 kirin mandarin restaurant,49.2863249,-123.1255978,false
-a&w,49.2860548,-123.125171,false
+a&w,49.2860548,-123.125171,true
 subway,49.2860886,-123.125231,true
 fantacity karaoke,49.28525,-123.125406,false
 subway,49.0558043,-122.2722298,true
@@ -82,18 +82,16 @@ ny's indian grill & bar,49.1059413,-122.6624961,false
 s+l kitchen & bar,49.1552029,-122.6687533,false
 white spot,49.1693268,-122.6664782,true
 the old spaghetti factory,49.1694686,-122.665754,true
-the old spaghetti factory,49.1694686,-122.665754,true
 zythos greek restaurant,49.1771408,-122.6734773,false
-chipotle,49.1126928,-122.6723021,false
+chipotle,49.1126928,-122.6723021,true
 y2 cafe,49.3059961,-123.0105992,false
 shun jing lou seafood restaurant,49.2309718,-123.065371,false
 the chopped leaf,49.1055548,-122.7402471,false
 lotus garden express,49.1035937,-122.4921927,false
 zythos,49.1772664,-122.6731048,false
 the biryani chef,49.0513655,-122.6923459,false
-a&w,49.1997306,-122.778462,false
+a&w,49.1997306,-122.778462,true
 hub restaurant new west,49.2010136,-122.9125269,false
-the old spaghetti factory,49.2018963,-122.91265,true
 the old spaghetti factory,49.2018963,-122.91265,true
 glowbal,49.2814683,-123.1172443,false
 eats at the pier,49.2037589,-122.9046452,false
@@ -121,7 +119,7 @@ cor's 2 for 1 pizza,49.0576667,-122.4692292,false
 pajo's fish and chips,49.1239129,-123.1863673,false
 subway,49.2468123,-123.0683041,true
 papa john's,49.2191586,-122.969566,true
-a&w,49.2196492,-122.969212,false
+a&w,49.2196492,-122.969212,true
 subway,49.2196001,-122.9683,true
 panago,49.2196141,-122.9685904,true
 domino's,49.2218272,-122.9969589,true
@@ -136,11 +134,11 @@ water street cafe,49.2842334,-123.1090325,false
 minato japanese restaurant,49.2635812,-123.127202,false
 mcdonald's,49.2634907,-123.11626,true
 chef's choice chinese cuisine,49.263551,-123.1254837,false
-cactus club cafe,49.2634241,-123.117312,true
+cactus club cafe,49.2634241,-123.117312,false
 royal seoul house,49.2636456,-123.1316944,false
 menya raizo,49.2633439,-123.1130715,false
 subway,49.2633536,-123.1137363,true
-a&w,49.2634886,-123.1215189,false
+a&w,49.2634886,-123.1215189,true
 the chicken,49.2218399,-123.0054728,false
 tocador,49.2617901,-123.1007734,false
 cafe barney,49.262522,-123.1007068,false
@@ -215,7 +213,7 @@ sushi oyama,49.225024,-122.990072,false
 domino pizza,49.2112394,-122.9353594,false
 legendary noodle,49.1176829,-122.6694722,false
 fresh donair,49.1186802,-122.6700701,false
-wild wing,49.1186793,-122.6698975,false
+wild wing,49.1186793,-122.6698975,true
 quick bite,49.213342,-122.9375173,false
 potter's garden,49.2232465,-122.982719,false
 fighter chicken,49.2344287,-123.036072,false
@@ -225,13 +223,13 @@ chop n toss,49.2255444,-122.9968024,false
 burger king,49.2258643,-122.9969705,true
 chef tony dim sum,49.2258877,-122.9975787,false
 chronic tacos,49.2253972,-122.9972623,false
-thaï express,49.2254547,-122.9975777,false
+thaï express,49.2254547,-122.9975777,true
 sulmida dessert cafe,49.2286297,-122.999512,false
 koya japan,49.2254008,-122.997067,false
 subway,49.2254531,-122.9968869,true
-nando's,49.2257668,-122.9968006,false
+nando's,49.2257668,-122.9968006,true
 bubble waffle cafe,49.2257969,-122.9968887,false
-manchu wok,49.2258275,-122.9969398,false
+manchu wok,49.2258275,-122.9969398,true
 vina vietnamese,49.2254863,-122.9976519,false
 chachi’s,49.2255226,-122.9977261,false
 u-grill,49.2255531,-122.9977931,false
@@ -239,17 +237,17 @@ kawawa,49.2273734,-123.0000139,false
 kawawa ramen,49.2273299,-122.9999156,false
 crêpe de licious,49.2259279,-122.9975146,false
 curry express,49.2258084,-122.9977187,false
-orange julius,49.2257836,-122.9978073,false
+orange julius,49.2257836,-122.9978073,true
 hellcrust pizza,49.2275306,-122.999928,false
 togo sushi,49.2257638,-122.9967208,false
-opa! of greece,49.2253988,-122.9971646,true
+opa! of greece,49.2253988,-122.9971646,false
 kfc,49.2254197,-122.9969699,true
 new york fries,49.2254951,-122.9968289,true
 bourbon st. grill,49.2258501,-122.9976493,false
-a&w,49.2254058,-122.9973612,false
+a&w,49.2254058,-122.9973612,true
 the american cheese steak co.,49.2274703,-122.9998197,false
 jingle bao,49.2916811,-123.1348802,false
-yunshang rice noodle,49.2284147,-123.00452,false
+yunshang rice noodle,49.2284147,-123.00452,true
 neptune chinese kitchen,49.2275482,-122.8370119,false
 sashimi sushi,49.2507154,-122.89576,false
 canra plus,49.2798847,-123.1068032,false
@@ -264,13 +262,13 @@ jugo juice,49.2504797,-122.895109,false
 wok,49.2507778,-122.894579,false
 kojo of japan,49.25081,-122.894626,false
 chop & toss,49.2505677,-122.894989,false
-a&w,49.2508506,-122.8947628,false
+a&w,49.2508506,-122.8947628,true
 fu express,49.2277796,-122.8362961,false
 roadies,49.2276126,-122.8362938,false
 ihop,49.251496,-122.896669,true
 orange julius,49.2507042,-122.896107,false
 mcdonald's,49.2808969,-123.1073143,true
-taco time,49.2799281,-123.106678,false
+taco time,49.2799281,-123.106678,true
 abdul's bbq,49.2801333,-123.1063965,false
 bubble king,49.2799047,-123.106734,false
 tina,49.2799553,-123.1066209,false
@@ -283,9 +281,9 @@ pizza pzazz,49.2726607,-123.135316,false
 hanami,49.1960486,-123.177943,false
 round table pizza,49.1653656,-122.6614878,true
 boston pizza,49.1674933,-122.6674453,true
-taco del mar,49.1633833,-122.6594915,false
+taco del mar,49.1633833,-122.6594915,true
 pizza hut,49.1660159,-122.6635496,true
-montana's,49.1672102,-122.6661043,false
+montana's,49.1672102,-122.6661043,true
 the barley merchant,49.168192,-122.6674367,false
 green leaf sushi,49.2640395,-123.1801008,false
 the cafe,49.1409171,-122.6009339,false
@@ -302,7 +300,7 @@ xiaolongkan hot pot,49.1780926,-123.1318267,false
 fat boy kitchen,49.2209906,-123.066042,false
 paragon pizza,49.2208148,-123.0656937,false
 karakoram restaurant,49.2204323,-123.0656741,false
-cactus club cafe,49.0353367,-122.2665468,true
+cactus club cafe,49.0353367,-122.2665468,false
 lucky sushi,49.1848929,-122.9493423,false
 momo sushi,49.2862529,-123.1276348,false
 mali thai food,49.2608368,-123.1007648,false
@@ -333,13 +331,13 @@ paulies kitchen,49.2751593,-123.1213923,false
 sushi maro,49.274839,-123.1218884,false
 anton's pasta bar,49.2809073,-123.009823,false
 subway,49.0498661,-122.311635,true
-a&w,49.0498031,-122.3114531,false
+a&w,49.0498031,-122.3114531,true
 new york fries,49.0496405,-122.3118348,true
-opa! of greece,49.0495887,-122.3117934,true
+opa! of greece,49.0495887,-122.3117934,false
 famous wok,49.0498388,-122.3117035,false
 ono's of japan,49.0496845,-122.311872,false
-freshslice pizza,49.0497721,-122.311822,false
-thaï express,49.049844,-122.311536,false
+freshslice pizza,49.0497721,-122.311822,true
+thaï express,49.049844,-122.311536,true
 masayoshi,49.2458146,-123.0900087,false
 meet on main,49.2467148,-123.1010057,false
 meet in gastown,49.2832439,-123.104844,false
@@ -353,21 +351,21 @@ desi junction lounge & restaurant,49.1637058,-122.890913,false
 mayuri indian cuisine,49.1485074,-122.8714418,false
 chuck e. cheese's,49.11765,-122.668976,true
 no. 9 restaurant,49.1754035,-123.1342502,false
-haidilao hot pot,49.1707675,-123.135859,false
+haidilao hot pot,49.1707675,-123.135859,true
 mui garden,49.2313896,-123.0657674,false
 yummy slice pizza,49.2630366,-123.101304,false
 fable diner,49.2630437,-123.1016379,false
-mucho burrito,49.2540332,-122.7388698,false
+mucho burrito,49.2540332,-122.7388698,true
 mcdonald's,49.2548653,-122.7354267,true
 orrange kitchen + bar,49.2578328,-122.745482,false
 pho 51,49.2544616,-122.7378912,false
-five guys,49.2541361,-122.7388679,false
+five guys,49.2541361,-122.7388679,true
 subway,49.2544572,-122.7380216,true
 han sang,49.2580881,-122.745867,false
 the bedford house,49.1708897,-122.5768044,false
 1827,49.1694304,-122.5790379,false
 beatniks bistro,49.1696367,-122.5782942,false
-nando's,49.1364128,-122.889114,false
+nando's,49.1364128,-122.889114,true
 pinch of spice,49.1607342,-122.8911245,false
 iron chief,49.1687435,-122.5798414,false
 tokyo garden,49.16977,-122.5765302,false
@@ -377,16 +375,16 @@ nordel sushi,49.1609291,-122.8877688,false
 kfc,49.1614935,-122.8908325,true
 taco bell,49.1614786,-122.89107,true
 mcdonald's,49.2027477,-122.8795076,true
-cactus club cafe,49.1468811,-122.8910518,true
+cactus club cafe,49.1468811,-122.8910518,false
 browns social house,49.1330328,-123.0964671,false
-earls,49.2638283,-123.1413786,true
+earls,49.2638283,-123.1413786,false
 mcdonald's,49.2634307,-123.138066,true
 the boathouse restaurant,49.274204,-123.153753,false
 trafalgars bistro,49.2578148,-123.1650598,false
 meat at o'neill's,49.3123989,-123.0778703,false
-chipotle,49.3278002,-123.1395422,false
-five guys,49.3262061,-123.1361153,false
-a&w,49.2137355,-122.9389574,false
+chipotle,49.3278002,-123.1395422,true
+five guys,49.3262061,-123.1361153,true
+a&w,49.2137355,-122.9389574,true
 sushi mori,49.1152983,-122.6790538,false
 creekside grill,49.1437425,-122.7994953,false
 trattoria italian restaurant,49.3266192,-123.138036,false
@@ -398,7 +396,7 @@ subway,49.3239681,-123.102784,true
 chandigarh restaurant and rar,49.0684981,-122.35853,false
 church's chicken,49.1709566,-123.181556,true
 afghan horsemen restaurant,49.269316,-123.1387834,false
-a&w,49.2730334,-123.1003915,false
+a&w,49.2730334,-123.1003915,true
 shaughnessy restaurant,49.2386541,-123.1298219,false
 sushi garden,49.2668529,-123.0090851,false
 heirloom,49.2609348,-123.1392811,false
@@ -406,7 +404,7 @@ ajisai sushi bar,49.2339326,-123.1536982,false
 chit chat burger bar,49.2798107,-123.1224898,false
 restaurant yugo,49.2475507,-123.1013532,false
 subway,49.2332678,-123.101274,true
-a&w,49.2739585,-123.0980509,false
+a&w,49.2739585,-123.0980509,true
 white spot triple o's,49.2730825,-123.103976,false
 urban sushi,49.283914,-123.115705,false
 hot star large fried chicken,49.2838693,-123.115767,false
@@ -449,17 +447,17 @@ kung fu noodle,49.1814107,-123.1341625,false
 rise & noodle,49.2863433,-123.1277909,false
 subway,49.267402,-123.2495964,true
 booster juice,49.2673302,-123.2497546,true
-a&w,49.044471,-122.777214,false
+a&w,49.044471,-122.777214,true
 kyo korean bbq & sushi house,49.2590457,-123.1389288,false
 the canadian brewhouse & grill,49.1776337,-123.123851,false
 subway,49.1775901,-123.1221479,true
-nando's,49.1784334,-123.121667,false
+nando's,49.1784334,-123.121667,true
 golden sichuan hotpot,49.1786715,-123.121079,false
 fusion feast pizza & curry,49.1784718,-123.121091,false
 fatburger,49.1783944,-123.121095,false
 burger king,49.1781724,-123.121108,true
 bánh mì très bon,49.1777448,-123.1211054,false
-pepper lunch,49.178038,-123.121766,false
+pepper lunch,49.178038,-123.121766,true
 thai son restaurant,49.1777979,-123.12176,false
 tsukiji japanese restaurant,49.1779354,-123.125374,false
 kingspark steak house,49.1703624,-123.1323842,false
@@ -479,12 +477,12 @@ geng shi ji,49.1872375,-123.1318808,false
 deer garden signatures,49.1872412,-123.1316835,false
 cantonese bbq,49.1874924,-123.1286285,false
 yah-yah-ya,49.187245,-123.1288505,false
-meet fresh,49.1877519,-123.130436,false
+meet fresh,49.1877519,-123.130436,true
 pho 37,49.1877413,-123.1299389,false
 fortune terrace chinese cuisine,49.1742544,-123.1490557,false
 newton beef noodle,49.1690148,-123.1339371,false
 chengdu noodle house,49.1689882,-123.1352584,false
-freshslice pizza,49.1687064,-123.135534,false
+freshslice pizza,49.1687064,-123.135534,true
 pearl castle cafe,49.1682414,-123.1392128,false
 pho thai son restaurant,49.2257507,-123.0659387,false
 box chinese express kitchen,49.2258678,-123.066145,false
@@ -500,7 +498,7 @@ bun cha ca hoang yen,49.2378772,-123.0656128,false
 chau veggie express,49.2385372,-123.0651956,false
 kozak ukraїnian eatery,49.2386583,-123.0655595,false
 17℃ bubble tea & dessert café,49.2430252,-123.060183,false
-phở hòa,49.2426381,-123.059223,false
+phở hòa,49.2426381,-123.059223,true
 royal garden seafood restaurant,49.1807715,-123.134077,false
 westview oriental,49.3334059,-123.0886973,false
 bay sushi,49.3737497,-123.2741383,false
@@ -523,8 +521,8 @@ kingyo,49.290566,-123.137056,false
 triple o's,49.1924274,-123.0910446,false
 mary brown's famous chicken & taters!,49.0365166,-122.290737,false
 ra sushi,49.0365114,-122.2908143,false
-freshii,49.0365157,-122.2906543,true
-chopped leaf,49.10485,-122.8028182,false
+freshii,49.0365157,-122.2906543,false
+chopped leaf,49.10485,-122.8028182,true
 the fish man,49.1784638,-123.1302833,false
 lee yuen seafood restaurant,49.1918442,-122.8137613,false
 kfc,49.262628,-123.0874661,true
@@ -548,12 +546,12 @@ yu ki bbq kitchen,49.2255504,-123.0542783,false
 pho thai ha,49.2254057,-123.0535119,false
 bubble waffle cafe,49.2254858,-123.0535127,false
 subway,49.2716748,-123.0947341,true
-taco del mar,49.2717323,-123.0948814,false
+taco del mar,49.2717323,-123.0948814,true
 bibi's kitchen,49.2717729,-123.0951169,false
 sushi man,49.3237443,-123.1111037,false
 quiznos,49.3237469,-123.1108931,true
 capilano sushi,49.3244385,-123.1081907,false
-c-lovers fish & chips,49.3245337,-123.1074028,true
+c-lovers fish & chips,49.3245337,-123.1074028,false
 white spot,49.3240623,-123.1087802,true
 kypriaki mediterranean grill,49.3240676,-123.1120326,false
 pho garden,49.3235304,-123.1143513,false
@@ -569,13 +567,12 @@ stackables,49.2655654,-123.254337,false
 triple o's,49.2658558,-123.2544402,false
 subway,49.090412,-123.078228,true
 mcdonald's,49.1616399,-123.1358929,true
-a&w,49.1540431,-123.12496,false
-the old spaghetti factory,49.1343339,-123.0651422,true
+a&w,49.1540431,-123.12496,true
 the old spaghetti factory,49.1343339,-123.0651422,true
 white spot,49.1717889,-123.1359234,true
 church's texas chicken,49.1552993,-123.123732,false
 quiznos,49.1321157,-123.0947566,true
-taco del mar,49.1322997,-123.0914934,false
+taco del mar,49.1322997,-123.0914934,true
 wings,49.1319272,-123.091692,false
 panago pizza,49.090443,-123.0854968,false
 non-stop pizza,49.0894108,-123.0802013,false
@@ -584,7 +581,7 @@ ihop,49.1644702,-123.1361623,true
 empire seafood restaurant,49.1708265,-123.136968,false
 italian tomato restaurant,49.1916327,-123.13096,false
 kong's kitchen,49.1445825,-123.0923099,false
-a&w,49.2267483,-123.128868,false
+a&w,49.2267483,-123.128868,true
 local public eatery,49.2835819,-123.1040678,false
 earl's,49.1763527,-123.1318255,false
 the deck kitchen + bar,49.190695,-123.139231,false
@@ -600,7 +597,7 @@ sanpoutei ramen,49.1821943,-123.135486,false
 mai's vietnamese restaurant,49.162471,-122.6580285,false
 empire garden chinese restaurant,49.1621825,-122.6579445,false
 mega donair,49.2718554,-122.8764461,false
-freshslice pizza,49.0905017,-123.080352,false
+freshslice pizza,49.0905017,-123.080352,true
 de dutch,49.2723413,-122.789067,false
 joker's pizzaria,49.2766562,-122.8310949,false
 scan-delicious,49.284477,-123.065734,false
@@ -623,7 +620,7 @@ hokkaido ramen santouka,49.2902063,-123.1337425,false
 donair delight,49.2310818,-123.0061322,false
 me + crepe,49.2315681,-123.00515,false
 subway,49.231039,-123.006178,true
-nando's,49.2307097,-123.007297,false
+nando's,49.2307097,-123.007297,true
 hon sushi,49.2311591,-123.006783,false
 subway,49.1883248,-122.9517415,true
 racebook,49.1865335,-122.955912,false
@@ -636,19 +633,19 @@ szechuan cuisine,49.2192759,-122.970412,false
 myst asian fusion,49.2193536,-122.970685,false
 subway,49.1912607,-122.947297,true
 opa!,49.1911353,-122.9471654,false
-sarpino's pizzeria,49.1564728,-122.2095408,false
+sarpino's pizzeria,49.1564728,-122.2095408,true
 boston pizza,49.1863895,-122.8474565,true
 ricky's,49.1861186,-122.8474382,false
 saison,49.1855201,-122.8475501,false
-orange julius,49.1868482,-122.8490317,false
+orange julius,49.1868482,-122.8490317,true
 booster juice,49.1871184,-122.8490357,true
-cultures,49.1868448,-122.8492283,false
-a&w,49.1871177,-122.8491133,false
+cultures,49.1868448,-122.8492283,true
+a&w,49.1871177,-122.8491133,true
 go grill,49.1871162,-122.8492835,false
-manchu wok,49.1871155,-122.8493572,false
+manchu wok,49.1871155,-122.8493572,true
 fresh slice,49.187114,-122.849531,false
-thaï express,49.1871697,-122.849752,false
-quesada,49.1871291,-122.849602,false
+thaï express,49.1871697,-122.849752,true
+quesada,49.1871291,-122.849602,true
 kfc,49.1871919,-122.849834,true
 toyama express,49.187117,-122.8491994,false
 charleys philly steaks,49.1871146,-122.8494584,true
@@ -657,7 +654,7 @@ steve's poké bar,49.1869648,-122.8498822,false
 subway,49.186992,-122.84998,true
 burger king,49.186768,-122.8499392,true
 potato corner,49.1863136,-122.8480116,false
-chipotle,49.1886831,-122.802172,false
+chipotle,49.1886831,-122.802172,true
 togo sushi,49.1901652,-122.8042909,false
 famoso napolitan pizzeria,49.1885348,-122.8021256,false
 milestones,49.1886303,-122.802229,false
@@ -694,7 +691,7 @@ isami sushi,49.22987,-123.0019032,false
 subway,49.1913787,-122.8449032,true
 mcdonald's,49.0611385,-122.3807955,true
 panago,49.0612765,-122.380797,true
-quesada,49.0612017,-122.379992,false
+quesada,49.0612017,-122.379992,true
 vi la palace,49.0613388,-122.3800095,false
 rendezvous restaurant mt lehman,49.0621643,-122.3806878,false
 hana sushi japanese restaurant,49.0616856,-122.3800125,false
@@ -752,13 +749,13 @@ kira sushi,49.0572877,-122.2729713,false
 the rendezvous restaurant,49.0573488,-122.2733916,false
 numero uno pizza,49.2772057,-123.1265215,false
 sushi howe,49.277516,-123.127083,false
-chicko chicken korean style,49.0522053,-122.3129581,false
+chicko chicken korean style,49.0522053,-122.3129581,true
 chef hung taiwanese beef noodle,49.2818966,-123.124145,false
 pizza garden,49.2801553,-123.1209295,false
 pacifico pizzeria & ristorante,49.2818326,-123.124023,false
 donair king,49.2794471,-123.130019,false
 domino's,49.0494651,-122.259796,true
-subway,49.0496898,-122.2598023,true
+subway,49.0496898,-122.2598023,false
 aria kabab house & grill,49.2217964,-122.9309468,false
 cayenne bistro and grill,49.2214255,-122.930951,false
 scott hill pizza,49.222259,-122.9315425,false
@@ -767,7 +764,7 @@ lr pizza & curry,49.2228162,-122.932676,false
 kadoya,49.2802018,-123.13067,false
 fatburger,49.2802263,-123.130709,false
 panago,49.057156,-122.2740055,true
-a&w,49.1917192,-123.111856,false
+a&w,49.1917192,-123.111856,true
 mr. b's food and drink,49.288583,-123.140079,false
 hachibei,49.2568861,-123.121518,false
 ,49.233419,-123.034894,false
@@ -797,7 +794,7 @@ south castle korean restaurant,49.3118497,-123.0764847,false
 rodney's oyster house,49.2831459,-123.103036,false
 sura korean,49.2888741,-123.13173,false
 hongdae pocha korean,49.2898464,-123.133158,false
-a&w,49.2896102,-123.138533,false
+a&w,49.2896102,-123.138533,true
 peaked pies,49.289715,-123.1383784,false
 panago,49.2897561,-123.1383258,true
 carp,49.2622969,-123.0958568,false
@@ -830,8 +827,8 @@ hot spot pizza,49.1039632,-122.6505489,false
 maru japanese restaurant,49.1037077,-122.6502847,false
 pho 777 vietnamese restaurant,49.1035063,-122.6516175,false
 venetis restaurant,49.1034035,-122.6538181,false
-dq grill & chill,49.1050087,-122.659888,false
-robin's donuts,49.1051536,-122.6594585,false
+dq grill & chill,49.1050087,-122.659888,true
+robin's donuts,49.1051536,-122.6594585,true
 naka bistro lao & thai cuisine,49.1084731,-122.6670714,false
 hao's lamb restaurant,49.1827333,-123.1355343,false
 northern style chinese restaurant,49.1832711,-123.1361756,false
@@ -857,7 +854,7 @@ city square pizza,49.2805792,-123.1317635,false
 donair dude,49.2813691,-123.1329919,false
 choice pizza 2 for 1,49.0473214,-122.2682839,false
 sea harbour seafood restaurant,49.1961883,-123.126223,false
-gyu-kaku,49.2801081,-123.125117,false
+gyu-kaku,49.2801081,-123.125117,true
 rorimomo,49.2777207,-123.126777,false
 the oakwood,49.2684763,-123.1671204,false
 peqish,49.2833879,-123.1145536,false
@@ -877,7 +874,7 @@ subway,49.1154625,-122.6795039,true
 quiznos,49.1046782,-122.798084,true
 ban chok dee,49.1030203,-122.652826,false
 langley vietnamese cuisine,49.1022122,-122.660072,false
-the boathouse,49.1995895,-122.9125081,false
+the boathouse,49.1995895,-122.9125081,true
 kitstaya sushi,49.2643226,-123.174195,false
 ,49.2643441,-123.1748179,false
 pokay,49.2642652,-123.171801,false
@@ -933,7 +930,7 @@ burnaby palace restaurant,49.2562863,-123.023274,false
 happy valley dim sum seafood restaurant,49.262033,-123.0296665,false
 joy sushi,49.2643167,-123.0106665,false
 ricky's cafe,49.2657453,-123.0055504,false
-chipotle,49.2630686,-123.115977,false
+chipotle,49.2630686,-123.115977,true
 subway,49.2676227,-123.0035185,true
 cove sushi,49.3073274,-122.9539014,false
 nektar's pizza and greek food,49.3069369,-122.9535048,false
@@ -945,14 +942,14 @@ uncle fatih's pizza,49.2789073,-123.122176,false
 meat & bread,49.2810223,-123.118995,false
 mcdonald's,49.280548,-123.121366,true
 aladdin cafe,49.280963,-123.118915,false
-five guys,49.28109,-123.119096,false
+five guys,49.28109,-123.119096,true
 commercial sushi,49.2616326,-123.0700247,false
 pizzeria ludica,49.2800589,-123.1086084,false
 hai phong,49.2796305,-123.10861,false
 tsuki sushi bar,49.2808958,-123.1078452,false
 subway,49.2616851,-123.0700316,true
 taishoken,49.2807869,-123.1078361,false
-a&w,49.2831516,-123.1154178,false
+a&w,49.2831516,-123.1154178,true
 ryuu,49.2810728,-123.118583,false
 hungry guys,49.2792876,-123.1226649,false
 moltan,49.2726305,-123.148677,false
@@ -965,13 +962,13 @@ pho 99,49.2779185,-122.912361,false
 juewei,49.2866613,-123.1283005,false
 all india sweets & restaurant,49.2250996,-123.1014359,false
 himalaya restaurant,49.2248105,-123.1018704,false
-a&w,49.26262,-122.8383183,false
+a&w,49.26262,-122.8383183,true
 subway,49.2631825,-122.8402209,true
 pizza one,49.2630737,-122.8402128,false
 subway,49.2623856,-123.057011,true
 shun feng seafood restaurant,49.1819442,-123.135778,false
 five,49.0213607,-122.8055126,false
-a&w,49.2608512,-123.1161648,false
+a&w,49.2608512,-123.1161648,true
 blue sky japanese bistro ltd,49.2710268,-123.1466969,false
 we grill korean eatery,49.2744509,-122.7900234,false
 phở huy restaurant,49.2739434,-122.788164,false
@@ -1054,7 +1051,7 @@ kaori izakaya,49.2579769,-123.101392,false
 sun sui wah seafood restaurant,49.2503562,-123.1007457,false
 church's chicken,49.2325226,-123.090106,true
 green leaf sushi cafe,49.2532802,-122.8983104,false
-red robin,49.2525622,-122.898141,false
+red robin,49.2525622,-122.898141,true
 tacofino,49.2764454,-123.119515,false
 west oak,49.2763998,-123.119601,false
 nightshade,49.2759204,-123.120304,false
@@ -1068,7 +1065,6 @@ frankie’s italian kitchen & bar,49.2781965,-123.1133537,false
 pho khanh,49.2762561,-123.1155406,false
 the blackberry kitchen,49.1374366,-122.2869008,false
 once more restaurant,49.1721,-123.132726,false
-the old spaghetti factory,49.2838437,-123.105367,true
 the old spaghetti factory,49.2838437,-123.105367,true
 pho han restaurant,49.1874737,-123.1239547,false
 prata-man singapore cuisine,49.1867038,-123.1241844,false
@@ -1104,14 +1100,14 @@ subway,49.2230001,-122.9139689,true
 la quercia,49.2687655,-123.1853463,false
 subway,49.2263872,-123.0042373,true
 boston pizza,49.2268102,-123.0040761,true
-a&w,49.2259651,-123.002616,false
+a&w,49.2259651,-123.002616,true
 neptune noodle bar,49.226354,-123.003963,false
 freshii,49.226408,-123.0036228,true
 neptune seafood restaurant,49.2262972,-123.0040162,false
-chipotle,49.2260065,-123.002356,false
+chipotle,49.2260065,-123.002356,true
 booster juice,49.2257698,-122.9969729,true
 the boss restaurant,49.2253804,-122.9997103,false
-popeyes,49.2257375,-122.996441,false
+popeyes,49.2257375,-122.996441,true
 uni sushi express,49.2272898,-123.0001015,false
 orange julius,49.2272799,-123.000179,false
 subway,49.1551644,-123.123812,true
@@ -1119,7 +1115,7 @@ royal seafood restaurant,49.155121,-123.1248975,false
 daan korean cuisine,49.1551956,-123.12462,false
 little caesars,49.1544601,-123.124749,true
 dosa factory,49.2509254,-123.077162,false
-nando's,49.1856947,-122.801637,false
+nando's,49.1856947,-122.801637,true
 fresh japanese restaurant,49.2756158,-123.1151739,false
 biercraft,49.2780055,-122.912328,false
 that place 4 pasta & pizza,49.2369689,-122.870433,false
@@ -1133,7 +1129,7 @@ panago pizza,49.1829277,-123.0920959,false
 subway,49.1838703,-123.0933981,true
 tandoori kona,49.1838695,-123.0932881,false
 meet in yaletown,49.2749478,-123.1217422,false
-a&w,49.2787971,-123.1234582,false
+a&w,49.2787971,-123.1234582,true
 an indian affair,49.1155779,-122.6794924,false
 austin fish and chips,49.2492792,-122.8607827,false
 subway,49.2811945,-123.012539,true
@@ -1157,7 +1153,7 @@ mama rich,49.2265557,-122.99322,false
 chongqing qing qin-ma hot pot restaurant,49.2265741,-122.9930695,false
 subway,49.2280822,-122.997835,true
 ha cafe,49.2282144,-122.9982869,false
-a&w,49.2769818,-122.85501,false
+a&w,49.2769818,-122.85501,true
 the acorn,49.2495635,-123.1012512,false
 the arbor,49.2499187,-123.1012388,false
 wings,49.1123933,-122.6772604,false
@@ -1178,12 +1174,12 @@ pink elephant thai restaurant,49.2101551,-123.1161572,false
 daddy's kitchen,49.2615373,-123.0696114,false
 rosemary bagels,49.2723618,-123.0693179,false
 panago,49.0910725,-122.607479,true
-a&w,49.0910917,-122.607647,false
+a&w,49.0910917,-122.607647,true
 rib & chicken,49.2698716,-123.0439878,false
-freshslice pizza,49.2266714,-123.0905213,false
+freshslice pizza,49.2266714,-123.0905213,true
 richmond night market,49.1937865,-123.133643,false
 pho hong restaurant,49.2269075,-123.0905378,false
-a&w,49.1767688,-122.673566,false
+a&w,49.1767688,-122.673566,true
 subway,49.2110929,-123.1407058,true
 nammos estiatorio,49.249452,-123.0898806,false
 good sushi,49.2498662,-123.0898679,false
@@ -1222,7 +1218,7 @@ koala kebabs,49.2836356,-123.1130258,false
 cham mani,49.2837054,-123.1131194,false
 caveman cafe,49.2841885,-123.1139212,false
 sushi spin roll,49.2837386,-123.1131665,false
-freshslice pizza,49.2838178,-123.11328,false
+freshslice pizza,49.2838178,-123.11328,true
 salam bombay,49.2840406,-123.12216,false
 bento express,49.0548595,-122.3592426,false
 moga's pizza ltd.,49.0543514,-122.3585561,false
@@ -1233,19 +1229,19 @@ dai tung,49.2531282,-123.0831059,false
 milk & sugar bbq bar,49.2382172,-123.032139,false
 thailicious,49.2810135,-123.0563034,false
 buddha-full,49.3057089,-123.017807,false
-opa! of greece,49.2831882,-123.117592,true
+opa! of greece,49.2831882,-123.117592,false
 jambo grill,49.2349593,-123.0371824,false
 fresh restaurant & lounge,49.1919591,-122.798649,false
 saku,49.2892247,-123.1322819,false
 original joe's,49.2786129,-123.1160175,false
 patisserie fur elise,49.2786063,-123.116857,false
 subway,49.2785176,-123.1157177,true
-barcelos flame grilled chicken,49.0548679,-122.371284,false
+barcelos flame grilled chicken,49.0548679,-122.371284,true
 kfc,49.1674085,-122.800863,true
 al & jan's fish & chips,49.1672409,-122.799507,false
 greek islands restaurant,49.1757579,-122.801653,false
 sapporo kitchen,49.0315176,-122.8016515,false
-popeyes,49.0340836,-122.800945,false
+popeyes,49.0340836,-122.800945,true
 lee yuen seafood restaurant,49.0348989,-122.8008819,false
 boston pizza,49.0375485,-122.8009329,true
 dairy queen,49.0396209,-122.801584,true
@@ -1288,7 +1284,7 @@ tatsu japanese bistro,49.2716414,-123.0697951,false
 tandoori palace,49.2716842,-123.0697943,false
 sushi cafe,49.1806432,-123.1600445,false
 spanish banks west concession,49.2775024,-123.2227417,false
-a&w,49.2684742,-123.1859648,false
+a&w,49.2684742,-123.1859648,true
 irori sushi,49.2684715,-123.1853203,false
 double dd pizza,49.26844,-123.1821901,false
 linh café,49.2682499,-123.1690466,false
@@ -1333,7 +1329,7 @@ domino's,49.3140173,-123.079082,true
 vaades,49.3139854,-123.0790093,false
 busan daeji gukbap restaurant,49.3139495,-123.07891,false
 mcdonald's,49.0366076,-122.2921298,true
-"browns socialhouse mccallum, abbotsford",49.035729,-122.2921646,false
+"browns socialhouse mccallum, abbotsford",49.035729,-122.2921646,true
 little saigon,49.0356436,-122.2920212,false
 bistro one half,49.1238349,-123.185814,false
 tsukiya,49.2922784,-123.133942,false
@@ -1347,7 +1343,7 @@ mumu kitchen,49.2865571,-123.140981,false
 vera's burger shack,49.105767,-122.739572,false
 mcdonald's,49.1038027,-122.7250223,true
 banana leaf,49.2799326,-123.1302522,false
-a&w,49.1037705,-122.728643,false
+a&w,49.1037705,-122.728643,true
 ricky's,49.1037213,-122.7281926,false
 osaka sushi,49.277574,-123.13185,false
 gotham,49.2828492,-123.1158635,false
@@ -1390,7 +1386,7 @@ boston pizza,49.3125664,-123.0822132,true
 freshii,49.3124327,-123.08221,true
 ragazzi pizza co.,49.2504667,-123.0417872,false
 fresh slice,49.1892937,-122.8021118,false
-thaï express,49.188908,-122.80246,false
+thaï express,49.188908,-122.80246,true
 britannia brewing ladner,49.0905502,-123.085609,false
 go-go sushi,49.0912773,-123.086394,false
 chronic tacos,49.2007846,-122.9161351,false
@@ -1441,7 +1437,7 @@ pizza knight,49.1195059,-122.6916726,false
 the workshop vegetarian café,49.3200966,-123.107641,false
 booster juice,49.2059449,-123.029648,true
 hifive chicken,49.2804912,-122.9778749,false
-a&w,49.2812021,-122.9998854,false
+a&w,49.2812021,-122.9998854,true
 hiro sushi,49.2813429,-123.0229786,false
 cloud 9 delicacy,49.1808976,-123.13501,false
 soup master,49.1776139,-123.1277247,false
@@ -1453,7 +1449,7 @@ mcdonald's,49.285126,-123.0640036,true
 gnj vegetarian bistro,49.1363241,-122.8900259,false
 mama michelle's kitchen,49.0493438,-122.297561,false
 booster juice,49.0412463,-122.2207816,true
-taco del mar,49.0406638,-122.220198,false
+taco del mar,49.0406638,-122.220198,true
 subway,49.0406625,-122.2200849,true
 a&w,49.0406638,-122.2197649,false
 donair affair,49.0412182,-122.2207062,false
@@ -1528,12 +1524,12 @@ lucky taco,49.2710538,-123.1551909,false
 pho goodness,49.280931,-123.1323047,false
 the sea house fish & chips,49.2361435,-123.0414313,false
 chili pepper house,49.2362425,-123.041736,false
-a&w,49.2056876,-122.8666886,false
+a&w,49.2056876,-122.8666886,true
 yama sushi,49.3365713,-123.0400751,false
 subway,49.1044656,-122.6598376,true
 fat burger,49.1194981,-122.6647319,false
 ricky's all day grill,49.1194928,-122.6654561,false
-nando's,49.0567827,-122.8007447,false
+nando's,49.0567827,-122.8007447,true
 damien's belgian waffles,49.1266442,-123.1818811,false
 denny's,49.1637059,-122.6604812,true
 bombay kitchen,49.2615783,-123.1380707,false
@@ -1573,14 +1569,14 @@ mcdonald's,49.3066775,-123.0365159,true
 sushi dragon,49.2631147,-123.1182125,false
 peaceful restaurant,49.2630798,-123.116063,false
 dd mau chinatown,49.2805364,-123.1009549,false
-freshslice pizza,49.3116539,-123.080344,false
+freshslice pizza,49.3116539,-123.080344,true
 qoola frozen yogurt bar,49.1890975,-122.8019467,false
-a&w,49.1891942,-122.80198,false
+a&w,49.1891942,-122.80198,true
 curry way,49.1892525,-122.8020476,false
 kfc,49.1893656,-122.8022609,true
 carl's jr.,49.1888105,-122.8042707,true
 subway,49.1889257,-122.8021446,true
-opa! of greece,49.1888927,-122.8023671,true
+opa! of greece,49.1888927,-122.8023671,false
 migoto sushi,49.1888372,-122.8027337,false
 freshii,49.1892575,-122.8026063,true
 edo,49.1888911,-122.8022722,false
@@ -1592,7 +1588,7 @@ dairy queen,49.1893943,-122.80248,true
 easy grill,49.1893379,-122.8025363,false
 new york fries,49.1889728,-122.8025965,true
 gojo little africa cafe,49.2591437,-123.0694945,false
-wendy's drive-thru,49.0337483,-122.2939428,false
+wendy's drive-thru,49.0337483,-122.2939428,true
 donky chicken,49.2629504,-123.097461,false
 the pizza king,49.2621894,-123.0741944,false
 masa japanese restaurant,49.263431,-123.1365721,false
@@ -1602,7 +1598,7 @@ home bbq,49.1723518,-123.1324365,false
 su hang restaurant,49.1723521,-123.133216,false
 rusty's pub,49.1026558,-122.7303622,false
 coast & country diner,49.1039095,-122.734564,false
-brgrs brgr,49.0488685,-122.2901519,false
+brgrs brgr,49.0488685,-122.2901519,true
 gateway pizza,49.1192623,-122.6708998,false
 white spot,49.2800699,-122.969768,true
 cockney kings fish & chips,49.2800457,-122.966568,false
@@ -1616,13 +1612,13 @@ shogun,49.2854943,-123.117195,false
 old beijing roast duck,49.263849,-123.1421144,false
 colony,49.2796758,-123.1226907,false
 banana leaf,49.26428,-123.1722925,false
-cactus club cafe,49.2750892,-123.122758,true
+cactus club cafe,49.2750892,-123.122758,false
 earls,49.2757748,-123.120516,true
 the keg,49.2765618,-123.119369,true
 lupo,49.2781459,-123.1172381,false
 salty's,49.1039351,-122.7292839,false
 kfc,49.1039465,-122.7305423,true
-pizza hut delivery,49.1034796,-122.732176,false
+pizza hut delivery,49.1034796,-122.732176,true
 subway,49.1036626,-122.7326073,true
 de dutch,49.1043183,-122.734523,false
 westcoast pizza,49.1061885,-122.655168,false
@@ -1650,13 +1646,13 @@ porthole steveston,49.1246171,-123.1816333,false
 g-men ramen,49.124414,-123.1846332,false
 maguro sushi,49.091413,-123.07892,false
 riverhouse restaurant & pub,49.115801,-123.061996,false
-chopped leaf,49.0906097,-123.0802207,false
+chopped leaf,49.0906097,-123.0802207,true
 primerose,49.1118014,-123.0524742,false
 dairy queen,49.2272788,-123.0001497,true
 dark table,49.2684412,-123.1647514,false
 tacomio,49.2663099,-123.2470453,false
 chronic tacos,49.2860028,-123.1124564,false
-a&w,49.2880327,-123.1236171,false
+a&w,49.2880327,-123.1236171,true
 mr. pei restaurant,49.0332823,-122.8008908,false
 east kitchen,49.2314573,-123.0653667,false
 botanist,49.2881797,-123.1171247,false
@@ -1687,12 +1683,12 @@ dairy queen,49.2257641,-122.9978351,true
 white spot,49.2129995,-122.9211009,true
 hi dozo sushi,49.2121752,-122.9218505,false
 dragon group seafood restaurant,49.1777093,-123.125377,false
-phở hòa,49.1774901,-123.1292862,false
+phở hòa,49.1774901,-123.1292862,true
 the true's tea,49.1774963,-123.1300772,false
 romers burger bar,49.2058672,-123.0426538,false
 redbeef express,49.205019,-122.909871,false
 royal tandoori,49.2050455,-122.9099145,false
-mean poutine,49.2129842,-122.9199062,false
+mean poutine,49.2129842,-122.9199062,true
 bon's off broadway,49.2626661,-123.0569099,false
 sushigo,49.2879174,-123.1237682,false
 haiyi seafood restaurant,49.2420422,-123.1011291,false
@@ -1722,11 +1718,11 @@ booster juice,49.1306397,-122.3180023,true
 junction sushi,49.1308243,-122.318072,false
 little saigon,49.1308844,-122.3180976,false
 little caesars,49.1320933,-122.3220594,true
-a&w,49.1326939,-122.320804,false
+a&w,49.1326939,-122.320804,true
 subway,49.1327007,-122.3193809,true
 fable diner & bar,49.2807525,-123.1171855,false
 grade 'a' restaurant,49.2774719,-123.1259922,false
-mr. greek,49.2775029,-123.125931,false
+mr. greek,49.2775029,-123.125931,true
 umeda japanese cuisine,49.277701,-123.125626,false
 donair dude,49.2778308,-123.125433,false
 dim sum master,49.277764,-123.125533,false
@@ -1794,7 +1790,7 @@ mahony and sons,49.2893842,-123.114425,false
 bánh mì 64,49.0517339,-122.3153309,false
 sushi box,49.2307501,-122.906371,false
 green lemongrass,49.2529024,-123.0822591,false
-nando's,49.2778449,-123.1276301,false
+nando's,49.2778449,-123.1276301,true
 subway,49.2779076,-123.1277317,true
 poor italian,49.2691037,-123.03418,false
 indian oven,49.2679589,-123.150722,false
@@ -1802,8 +1798,8 @@ kokoro tokyo mazesoba,49.266816,-123.006264,false
 claudio's ristorante,49.2654154,-123.0050598,false
 vegan pizza house,49.2072631,-122.8751564,false
 doppio zero pizza,49.2636934,-122.847522,false
-freshslice pizza,49.21241,-122.922074,false
-a&w,49.2124557,-122.9223287,false
+freshslice pizza,49.21241,-122.922074,true
+a&w,49.2124557,-122.9223287,true
 sciué italian bakery caffé,49.286852,-123.122304,false
 mangez mangez,49.2863832,-123.1227103,false
 church's texas chicken,49.2187081,-122.5578574,false
@@ -1831,8 +1827,8 @@ sushi aria,49.1548778,-123.1243287,false
 bonjour banh mi,49.2348621,-123.1157596,false
 straight & marrow,49.2848035,-123.0662391,false
 barbara,49.2804529,-123.096989,false
-popeyes,49.2137412,-122.939049,false
-chipotle,49.04773,-122.7850621,false
+popeyes,49.2137412,-122.939049,true
+chipotle,49.04773,-122.7850621,true
 sal y limon,49.0467103,-122.77872,false
 curry lounge,49.0452225,-122.7785093,false
 bento box,49.2630345,-123.1012046,false
@@ -1871,7 +1867,7 @@ lido restaurant,49.1825418,-123.1341384,false
 fujiwara tofu shop,49.1784676,-123.1300551,false
 bruno,49.1922469,-123.1316302,false
 kesari kitchen,49.2863175,-123.140629,false
-freshslice pizza,49.286779,-123.141341,false
+freshslice pizza,49.286779,-123.141341,true
 halal arabic food stand,49.2842402,-123.1175601,false
 mr shawarma,49.2831011,-123.1171034,false
 mr shawarma,49.2852994,-123.120164,false
@@ -1898,7 +1894,7 @@ uncle fatih's pizza,49.2639335,-123.167823,false
 iki japanese bistro,49.2639326,-123.1676074,false
 bella pizza,49.2632325,-123.1364612,false
 donair spot,49.2631809,-123.1221438,false
-a&w,49.2625523,-123.0693702,false
+a&w,49.2625523,-123.0693702,true
 booster juice,49.2628756,-123.0695249,true
 donair dude,49.2626734,-123.06937,false
 megabite pizza,49.2627967,-123.0693624,false
@@ -1927,7 +1923,7 @@ subway,49.2579867,-123.0449264,true
 sushi royal house,49.2586122,-123.044569,false
 guu original thurlow,49.2840032,-123.1254481,false
 jugo juice,49.2848411,-123.1248987,false
-pita pit,49.119491,-122.6652549,false
+pita pit,49.119491,-122.6652549,true
 zefferelli's spaghetti joint,49.2851116,-123.1259645,false
 rozzini's,49.1946138,-122.9278485,false
 beach ave bar & grill,49.2755714,-123.1355604,false
@@ -1955,11 +1951,11 @@ quiznos,49.0902235,-122.607215,true
 holy falafel & shawarma house,49.1034121,-122.4921896,false
 donair girl,49.2190912,-122.9506199,false
 arisu authentic korean bbq,49.2187837,-122.9504257,false
-freshslice pizza,49.040855,-123.0886394,false
+freshslice pizza,49.040855,-123.0886394,true
 applause,49.2109227,-123.1304363,false
 marulilu cafe,49.2633589,-123.1140975,false
 parm'z pizza factory ltd.,49.2105122,-123.1304651,false
-phở hòa,49.2269711,-123.1287459,false
+phở hòa,49.2269711,-123.1287459,true
 subway,49.226921,-123.128806,true
 townhall public house,49.2179614,-122.6488262,false
 pizza hut,49.2179441,-122.6483993,true
@@ -1971,7 +1967,7 @@ sushi california,49.2865749,-123.1228586,false
 jade valley,49.1857232,-122.8001712,false
 maguro,49.1857184,-122.7998785,false
 bubble waffle cafe,49.1857231,-122.8000278,false
-a&w,49.2093486,-123.1167129,false
+a&w,49.2093486,-123.1167129,true
 tamarind hill,49.2122666,-122.9214422,false
 pizza hut,49.2521275,-122.7364115,true
 pür & simple,49.2521626,-122.736559,false
@@ -2007,14 +2003,14 @@ booster juice,49.0585166,-122.3794952,true
 ono's sushi,49.0582753,-122.3790558,false
 milestones,49.0584965,-122.3808116,false
 the canadian brewhouse & grill,49.0582246,-122.3808805,false
-mucho burrito,49.05866,-122.380541,false
+mucho burrito,49.05866,-122.380541,true
 subway,49.0586766,-122.3804894,true
 papa greek,49.0586952,-122.3804395,false
 go-grill,49.0587133,-122.380388,false
 fatburger,49.0587782,-122.3795062,false
 manna sushi,49.2690886,-123.1044784,false
 preference,49.2218285,-122.994549,false
-red robin,49.2845287,-123.1252531,false
+red robin,49.2845287,-123.1252531,true
 the slocan restaurant,49.2812536,-123.0489809,false
 triple-o's,49.2726439,-123.1472791,false
 sitar,49.283151,-123.103757,false
@@ -2023,7 +2019,7 @@ boneta,49.2831498,-123.1049771,false
 vera's burger shack,49.2831781,-123.1044747,false
 incendio,49.2834563,-123.1023773,false
 the birds & the beets,49.2835451,-123.102736,false
-church's texas chicken,49.0512088,-122.3337933,false
+church's texas chicken,49.0512088,-122.3337933,true
 pizza pizza,49.0512463,-122.3338254,true
 donair shack,49.0512803,-122.333854,false
 kitsilano natural foods (restaurant),49.2716008,-123.155219,false
@@ -2038,7 +2034,7 @@ best falafel,49.2666151,-123.069889,false
 addis cafe,49.266539,-123.0698996,false
 kishimoto,49.2666995,-123.0695093,false
 quiznos,49.2805438,-122.7929451,true
-chipotle,49.2815417,-123.1211798,false
+chipotle,49.2815417,-123.1211798,true
 sushi star,49.2795339,-123.123812,false
 the keg,49.2833798,-123.116411,true
 tana ethiopian cuisine,49.2481253,-123.0711517,false
@@ -2049,7 +2045,7 @@ pho edmonds,49.2219037,-122.9457969,false
 na-re korean kitchen,49.2202852,-122.9483959,false
 bún riêu phương nam,49.2201502,-122.948649,false
 freshii,49.1326485,-123.0915094,true
-freshslice pizza,49.1326408,-123.0911561,false
+freshslice pizza,49.1326408,-123.0911561,true
 pizzeria ludica,49.2041008,-122.9092522,false
 papa john's,49.2811916,-122.7958586,true
 kulinarya filipino eatery,49.2743503,-123.069358,false
@@ -2068,7 +2064,7 @@ deepwater micro eatery,49.3266813,-122.950228,false
 omega pizza & wings,49.2628059,-122.780611,false
 templeton's,49.2784378,-123.124545,false
 fritz's european fry house,49.2772949,-123.1266675,false
-freshslice pizza,49.2776678,-123.1266852,false
+freshslice pizza,49.2776678,-123.1266852,true
 yaas grill house,49.3281564,-123.0725782,false
 indian fusion,49.3279483,-123.0724252,false
 haru sushi,49.3279098,-123.0724225,false
@@ -2082,7 +2078,7 @@ rosemary rocksalt bagelry,49.1319712,-123.0926675,false
 nori,49.2662407,-123.247515,false
 jamjar,49.2662923,-123.2471797,false
 uncle fatih's pizza,49.266267,-123.247343,false
-a&w,49.2765795,-122.7965015,false
+a&w,49.2765795,-122.7965015,true
 subway,49.2599136,-123.101389,true
 pizza garden,49.2580788,-123.101389,false
 pho goodness,49.2576896,-123.1014017,false
@@ -2099,7 +2095,7 @@ lhy thai,49.2194809,-122.9499055,false
 baiyulan shanghai cuisine,49.1777017,-123.1346039,false
 itofu - tofu dessert specialty shop,49.1776771,-123.1348876,false
 cockney kings,49.2010553,-122.9166426,false
-cactus club cafe,49.285504,-123.118815,true
+cactus club cafe,49.285504,-123.118815,false
 veerji fish 'n' grill,49.0475189,-122.3368772,false
 sansho,49.312732,-123.0573094,false
 subway,49.2183451,-123.0773794,true
@@ -2121,7 +2117,7 @@ ricky's,49.0904674,-123.0790855,false
 pho den,49.2196857,-122.9700212,false
 pampanga's cuisine,49.2292745,-123.0905061,false
 ali & baba,49.3264675,-123.1203591,false
-jollibee,49.2810698,-123.120576,false
+jollibee,49.2810698,-123.120576,true
 deacon's corner,49.2839422,-123.0998366,false
 trattoria italian kitchen,49.2301514,-123.003978,false
 pho hoa hong vietnamese restaurant,49.189941,-122.847175,false
@@ -2131,7 +2127,7 @@ c prime modern italian steak & wine,49.2808947,-123.127338,false
 moki's pizza,49.2506224,-123.1680028,false
 qieu,49.2793624,-123.107407,false
 hiroshi japanese ramen,49.1326298,-123.0912205,false
-,49.0451362,-122.294175,false
+,49.0451362,-122.294175,true
 karma lounge,49.2867846,-123.1243963,false
 laska king,49.2810042,-123.05329,false
 freshslice,49.2812597,-123.0537245,false
@@ -2139,7 +2135,7 @@ ajiya sushi,49.2678944,-123.1462762,false
 a&w,49.1485331,-123.1825159,false
 subway,49.2703957,-123.105986,true
 clubhouse japanese restaurant,49.2687186,-123.1109926,false
-pepper lunch,49.2646355,-123.115076,false
+pepper lunch,49.2646355,-123.115076,true
 uma sushi,49.263836,-123.1137936,false
 johnny rockets,49.2630818,-123.1264173,true
 uncle fatih’s pizza,49.1896608,-122.847876,false
@@ -2159,9 +2155,9 @@ wendy's,49.2283742,-122.8481876,true
 pacific poke,49.2631692,-123.1205957,false
 bufala,49.3391722,-123.103953,false
 church's chicken,49.2512037,-122.8925446,true
-round table pizza,49.1193301,-122.8235877,true
-round table pizza,49.1547908,-123.1257818,true
-subway,49.1916784,-123.1286231,true
+round table pizza,49.1193301,-122.8235877,false
+round table pizza,49.1547908,-123.1257818,false
+subway,49.1916784,-123.1286231,false
 nat's new york pizzeria,49.2884212,-123.13986,false
 ofra's kitchen (israel),49.2883664,-123.139947,false
 stem japanese eatery,49.2149696,-122.98807,false
@@ -2174,14 +2170,14 @@ juanita,49.2723233,-123.1548129,false
 kibune sushi,49.2724034,-123.1548232,false
 papa john's,49.2332549,-123.034794,true
 gold train express restaurant,49.2333359,-123.034702,false
-triple os,49.0890208,-122.1207999,false
+triple os,49.0890208,-122.1207999,true
 the king's head public house,49.2713039,-123.1548459,false
 ice blue sky japanese bistro,49.2708087,-123.1470449,false
 pizza garden,49.2679544,-123.000816,false
 red umbrella cafe,49.286421,-123.140262,false
 freshslice pizza,49.2816572,-123.120597,false
-orange julius,49.2795971,-123.117415,false
-a&w,49.2796191,-123.117481,false
+orange julius,49.2795971,-123.117415,true
+a&w,49.2796191,-123.117481,true
 memphis blues bbq house,49.2795681,-123.117362,false
 curry hut indian bistro,49.2857988,-123.115359,false
 st. regis bar & grill,49.283152,-123.115938,false
@@ -2201,8 +2197,8 @@ pizza 64,49.1335522,-122.337772,false
 pizza,49.1876678,-122.5519418,false
 joey burnaby,49.2667886,-123.0067414,false
 bells and whistles,49.255696,-123.0896525,false
-a&w,49.2012077,-122.913267,false
-freshslice pizza,49.2010902,-122.9125135,false
+a&w,49.2012077,-122.913267,true
+freshslice pizza,49.2010902,-122.9125135,true
 dairy queen,49.1487386,-123.1358977,true
 dex burgerbar,49.3099424,-123.0822109,false
 mcdonald's,49.2873965,-123.1143665,true
@@ -2228,7 +2224,7 @@ rogue kitchen & wetbar,49.2630984,-123.1176938,false
 de dutch,49.2672796,-123.113113,false
 lunch lady,49.2749694,-123.069283,false
 subway,49.1606309,-122.6672201,true
-a&w,49.1624742,-122.6564355,false
+a&w,49.1624742,-122.6564355,true
 falafel king,49.2801341,-123.118169,false
 hubbub,49.2794999,-123.117231,false
 curry fusion,49.2802404,-123.118333,false
@@ -2258,8 +2254,8 @@ grandt kitchen,49.1892746,-122.8463189,false
 sushi & roll,49.1889683,-122.8461338,false
 bubble 88,49.1880887,-122.8465151,false
 taste of punjab,49.1845873,-122.843637,false
-a&w,49.1822909,-122.84436,false
-freshslice pizza,49.1829337,-122.844312,false
+a&w,49.1822909,-122.84436,true
+freshslice pizza,49.1829337,-122.844312,true
 jaipur indian restaurant,49.1640178,-122.8897492,false
 la meza grill,49.1636337,-122.8916709,false
 lotus restaurant,49.16585,-122.8909244,false
@@ -2274,7 +2270,7 @@ i-cafe,49.2631016,-123.1200437,false
 freshii,49.2634282,-123.117023,true
 la petite cuillère,49.263463,-123.0998125,false
 cin city mini donuts,49.2629664,-123.098333,false
-sushi yama,49.2629456,-123.0972191,false
+sushi yama,49.2629456,-123.0972191,true
 pizza hut,49.2544914,-123.101278,true
 church's chicken,49.2541445,-123.101278,true
 delhi 6,49.2652958,-123.1449311,false
@@ -2309,7 +2305,7 @@ fusioncore,49.2193907,-122.9274657,false
 ,49.0954257,-122.8980932,false
 living foods,49.2826712,-123.1178553,false
 singapore hawker,49.2819847,-122.798641,false
-a&w,49.1407186,-122.0060007,false
+a&w,49.1407186,-122.0060007,true
 marutama ra-men,49.2785491,-123.1157632,false
 bao down,49.26948,-123.1072592,false
 nook,49.2695161,-123.1091368,false
@@ -2338,8 +2334,8 @@ the boss bakery & restaurant,49.2798121,-123.0994906,false
 pajo's fish and chips,49.1253394,-123.1922576,false
 subway,49.2536661,-122.918492,true
 sushia,49.2539408,-122.918584,false
-cactus club cafe,49.2634179,-123.1396207,true
-jinya ramen bar,49.2803076,-123.117925,false
+cactus club cafe,49.2634179,-123.1396207,false
+jinya ramen bar,49.2803076,-123.117925,true
 fresh slice,49.2801635,-122.7997254,false
 papi's seafood and oyster bar,49.2877455,-123.141335,false
 crêpe & café,49.234607,-123.1821906,false
@@ -2385,16 +2381,16 @@ sushi nara,49.0573082,-122.3146642,false
 chicago's pizza twist,49.057526,-122.3146622,false
 red wings,49.1139699,-122.6702933,false
 panago,49.1139708,-122.6702357,true
-freshslice pizza,49.2740753,-123.1220882,false
+freshslice pizza,49.2740753,-123.1220882,true
 westin pizza,49.1336842,-122.8899902,false
 umami sushi,49.1190026,-122.7321747,false
 street hotpot,49.2194503,-122.949967,false
-a&w,49.2192667,-123.0408347,false
+a&w,49.2192667,-123.0408347,true
 subway,49.2188696,-123.0401823,true
 chillibar,49.0526842,-122.692342,false
 thegood pho,49.0513639,-122.6920063,false
-quesada,49.0513654,-122.6922199,false
-a&w,49.0520083,-122.6920382,false
+quesada,49.0513654,-122.6922199,true
+a&w,49.0520083,-122.6920382,true
 subway,49.0521626,-122.6920704,true
 henry's kitchen,49.2769189,-122.857763,false
 rosa's cucina italiana,49.2776673,-122.859512,false
@@ -2444,8 +2440,8 @@ meat & bread,49.2872474,-123.1189254,false
 sushi mania,49.3116318,-123.0748959,false
 v-nam,49.3120538,-123.0743405,false
 wok box,49.1904556,-122.9503879,false
-nando's,49.1905117,-122.9504389,false
-a&w,49.1903259,-122.9491728,false
+nando's,49.1905117,-122.9504389,true
+a&w,49.1903259,-122.9491728,true
 naan bites,49.191552,-122.9477768,false
 ramen gojiro,49.2825244,-123.114459,false
 mcdonald's,49.0519086,-122.309441,true
@@ -2571,7 +2567,7 @@ pizza hut,49.3359055,-123.0376105,true
 subway,49.2579872,-123.1685632,true
 subway,49.2445767,-123.1539027,true
 subway,49.1980528,-122.978715,true
-freshslice pizza,49.1916628,-122.82362,false
+freshslice pizza,49.1916628,-122.82362,true
 yan's garden,49.2457248,-122.8934345,false
 kam ding seafood restaurant,49.2775292,-122.7924643,false
 on lok restaurant & wun tun house,49.2809119,-123.0634229,false
@@ -2591,8 +2587,8 @@ the edge,49.277847,-123.1248161,false
 domino's,49.1156629,-122.6823021,true
 subway,49.0601181,-122.4943564,true
 dockside,49.2693508,-123.1308317,false
-streats aldergrove,49.0592295,-122.4922766,false
-freshii,49.0412018,-122.2206368,true
+streats aldergrove,49.0592295,-122.4922766,true
+freshii,49.0412018,-122.2206368,false
 nagano sushi,49.2819129,-122.7999784,false
 white spot,49.2664116,-123.014025,true
 pür & simple,49.2621089,-123.099208,false
@@ -2621,24 +2617,24 @@ sal y limon,49.2688079,-123.069416,false
 social,49.2684563,-123.069407,false
 pho duy vietnamese restaurant,49.245058,-123.0653916,false
 jun yuan restaurant,49.23238,-123.065304,false
-nando's,49.1645574,-122.6646365,false
+nando's,49.1645574,-122.6646365,true
 riddim & spice,49.2674124,-123.0699392,false
 aroma indian restaurant,49.2773604,-122.8583325,false
 bubble world,49.2790841,-122.794261,false
 i love sushi,49.2366753,-122.8529953,false
 pho 99,49.2373483,-122.8529856,false
-taco del mar,49.2366392,-122.852996,false
-cactus club cafe,49.2332102,-122.8521201,true
+taco del mar,49.2366392,-122.852996,true
+cactus club cafe,49.2332102,-122.8521201,false
 once upon @ thai,49.0474627,-122.289777,false
 spring garden,49.2114693,-122.9356642,false
 camay wok,49.2846465,-123.112562,false
 my toan vietnamese gourmet,49.2845955,-123.1124903,false
 harbour spoon,49.2845516,-123.112411,false
-thaï express,49.2845146,-123.1123326,false
+thaï express,49.2845146,-123.1123326,true
 fatburger,49.2844796,-123.1122746,false
 little japan,49.2843495,-123.1120745,false
 salad loop,49.2844646,-123.1119722,false
-hiro sushi xpress,49.2845282,-123.1120539,false
+hiro sushi xpress,49.2845282,-123.1120539,true
 teppan kitchen,49.2846964,-123.1121842,false
 rice 'n spice,49.284732,-123.1121303,false
 boston pizza,49.110595,-122.6768607,true
@@ -2679,17 +2675,17 @@ mcdonald's,49.1114094,-122.6753063,true
 bacchus bistro,49.0218373,-122.6241106,false
 ,49.1413446,-122.8655179,false
 earls,49.0458259,-122.776698,true
-five guys,49.042618,-122.779745,false
+five guys,49.042618,-122.779745,true
 come along seafood restaurant,49.2393818,-123.0530866,false
 opa! souvlaki,49.2229088,-122.6709902,false
 sango japanese restaurant,49.2212931,-122.6731054,false
 vera's burger shack,49.2216335,-122.6731896,false
 panago,49.220176,-122.662922,true
 pho tau bay,49.2201339,-122.6632333,false
-freshslice pizza,49.1143031,-122.6752938,false
-a&w,49.1142429,-122.675368,false
+freshslice pizza,49.1143031,-122.6752938,true
+a&w,49.1142429,-122.675368,true
 opa! souvlaki,49.1143703,-122.675676,false
-taco time,49.1142463,-122.675617,false
+taco time,49.1142463,-122.675617,true
 orange julius,49.1144699,-122.6752018,false
 triple-o's,49.1594153,-122.668815,false
 jamaican pizza jerk,49.2602981,-123.0700119,false
@@ -2709,11 +2705,11 @@ golden river,49.1027064,-122.6450894,false
 sarpanch sweets & restaurant,49.1990389,-122.8164158,false
 penang szechuan restaurant,49.0292608,-122.8006128,false
 uncle tetsu,49.2257362,-122.9973998,false
-mrs. fields,49.2255679,-122.997972,false
+mrs. fields,49.2255679,-122.997972,true
 foodies,49.1124073,-122.7307639,false
 diamond buffet,49.1123607,-122.7297011,false
 thai basil,49.2643867,-123.1772264,false
-chopped leaf,49.137448,-122.8912035,false
+chopped leaf,49.137448,-122.8912035,true
 peaceful restaurant,49.2766052,-122.790244,false
 freshii,49.2734,-122.7884457,true
 pho net viet,49.2678271,-122.791133,false
@@ -2742,7 +2738,7 @@ emilio finatti pizzeria,49.1075697,-122.6652207,false
 star lake chinese restaurant,49.1177852,-122.6752846,false
 hugo's mexican kitchen,49.1193413,-122.6911917,false
 deluxe noodle house,49.1191147,-122.689348,false
-papa murphy's,49.1245208,-122.7021725,false
+papa murphy's,49.1245208,-122.7021725,true
 memphis blues barbeque house,49.1242302,-122.7049034,false
 village sushi,49.124381,-122.7052164,false
 wong's chinese seafood restaurant,49.1052465,-122.6584091,false
@@ -2770,7 +2766,7 @@ the first dessert,49.2310864,-123.0657999,false
 the cove pub,49.2687846,-123.1852151,false
 best neighbors,49.2514267,-123.1272648,false
 little caesars,49.3163612,-122.9706521,true
-a&w,49.3164521,-122.969311,false
+a&w,49.3164521,-122.969311,true
 subway,49.316207,-122.9710414,true
 genji japanese restaurant,49.3162577,-122.9710365,false
 church's chicken,49.2824302,-122.800391,true
@@ -2782,8 +2778,8 @@ haru korean kitchen,49.2829428,-123.1092138,false
 bubble world,49.1857185,-122.7997834,false
 subway,49.1852228,-122.800584,true
 pizza hut,49.1869381,-122.8000621,true
-earls,49.1869046,-122.8005383,true
-cora breakfast and lunch,49.0577015,-122.31523,false
+earls,49.1869046,-122.8005383,false
+cora breakfast and lunch,49.0577015,-122.31523,true
 donair affair,49.2545963,-123.0224053,false
 simba's grill,49.2544706,-123.023183,false
 bowen sushi,49.3791266,-123.338625,false
@@ -2815,7 +2811,7 @@ mcdonald's,49.2210405,-122.655669,true
 de dutch pannekoek house,49.2201878,-122.656863,false
 big star sandwich co.,49.2201784,-122.6577511,false
 halu sushi,49.2199011,-122.6569389,false
-a&w,49.2183247,-122.644466,false
+a&w,49.2183247,-122.644466,true
 maple leaf indian cuisine,49.2196284,-122.646351,false
 little caesars,49.2198076,-122.646793,true
 subway,49.2635006,-122.88703,true
@@ -2834,7 +2830,7 @@ calabash,49.2810356,-123.104202,false
 socrates in the heights,49.2812096,-122.9985806,false
 hakkaku ramen,49.2808576,-123.001903,false
 pho mr. do,49.2808568,-123.00183,false
-quesada,49.2812092,-123.0089295,false
+quesada,49.2812092,-123.0089295,true
 tentatsu japanese restaurant burnaby,49.2809121,-123.009697,false
 japolo,49.2540566,-122.8940094,false
 thai chef,49.2541048,-122.8939334,false
@@ -2918,11 +2914,11 @@ earls,49.327463,-123.153993,true
 ginger & soy chinese cuisine,49.3284002,-123.1562601,false
 mazahr lebanese kitchen,49.2615797,-123.1381671,false
 tasty planet,49.2194287,-122.9275107,false
-taco del mar,49.1908367,-122.9496788,false
+taco del mar,49.1908367,-122.9496788,true
 tora sushi,49.191214,-122.9472524,false
 hong kong flavor restaurant,49.1392122,-123.1383543,false
 subway,49.2180426,-122.5989375,true
-a&w,49.2178913,-122.5990161,false
+a&w,49.2178913,-122.5990161,true
 subway,49.1323894,-122.667405,true
 white spot drive thru,49.0400563,-122.3380026,false
 subway,49.280495,-123.121965,true
@@ -2965,18 +2961,18 @@ little caesars,49.2823104,-122.800397,true
 sadra,49.3233764,-123.0725666,false
 yaas,49.3237611,-123.072516,false
 arby's,49.0600466,-122.4938417,true
-namaburger,49.0488685,-122.2898692,false
+namaburger,49.0488685,-122.2898692,true
 hearthstone pizza,49.2737945,-122.788163,false
 dairy queen,49.2359278,-123.044715,true
 milssam tacorea,49.2750379,-123.1211163,false
 pokébar,49.2800438,-123.1309236,false
-red robin,49.217228,-122.5936509,false
+red robin,49.217228,-122.5936509,true
 yaletown brewing company,49.2755361,-123.1208411,false
 fets whisky kitchen,49.2735245,-123.0693646,false
 siddhartha's indian kitchen,49.2665275,-123.0695122,false
 midam cafe,49.2643516,-123.1764671,false
 l'otus cake boutique,49.2270308,-123.0077239,false
-popeyes,49.1209902,-122.663999,false
+popeyes,49.1209902,-122.663999,true
 mcdonald's,49.1212328,-122.6617515,true
 wo fung noodle express,49.1642937,-123.1353047,false
 yang guo fu malatang,49.1712741,-123.134055,false
@@ -2998,7 +2994,7 @@ the viet noodle guy,49.2672176,-123.005743,false
 hong mao restaurant,49.1870173,-123.1331863,false
 grand view szechuan restaurant,49.2478265,-123.0903617,false
 egg & co.,49.2471335,-123.0903681,false
-quesada,49.2059018,-123.0110355,false
+quesada,49.2059018,-123.0110355,true
 freshii,49.2059041,-123.0111841,true
 sushi mura,49.2059579,-123.0298393,false
 chi noodle bar,49.2316361,-123.1558458,false
@@ -3019,7 +3015,7 @@ hanju,49.2297497,-123.0049419,false
 green bamboo,49.2296175,-123.0049944,false
 ali shan,49.2295475,-123.0051017,false
 sushi garden,49.2291311,-123.000868,false
-loz takos,49.0408335,-122.2697912,false
+loz takos,49.0408335,-122.2697912,true
 ocean park pizza & steak house,49.0487975,-122.2596822,false
 saigon by night,49.1245965,-123.1812812,false
 jackalope's neighborhood dive,49.2813183,-123.058906,false
@@ -3030,7 +3026,7 @@ oriental village,49.0527588,-122.3147521,false
 sirocco mediterranean cuisine,49.0513643,-122.3131198,false
 super india sweets & restaurant,49.0514556,-122.3131141,false
 pizza spot,49.0515645,-122.3131129,false
-pita pit,49.0505395,-122.3228004,false
+pita pit,49.0505395,-122.3228004,true
 sui sha ya japanese restaurant,49.050201,-122.3227878,false
 pizza pizza,49.2629671,-123.0988218,true
 kwan luck restaurant,49.2396385,-123.0540931,false
@@ -3061,14 +3057,14 @@ babylon cafe,49.2796131,-123.123935,false
 king kabob,49.0520407,-122.3259697,false
 subway,49.2747568,-123.1002559,true
 le pho,49.2812593,-123.0541858,false
-a&w,49.278183,-122.910465,false
+a&w,49.278183,-122.910465,true
 zubu ramen,49.3261888,-123.139149,false
 legendary hot pot,49.3259573,-123.1395117,false
 hello nori,49.3264809,-123.1374744,false
 anne maries cafe,49.0504288,-122.2899542,false
 sal y limon,49.2568919,-123.0892293,false
 the kitchen dada sushi bar & grill,49.2640247,-123.1860912,false
-nando's,49.0502826,-122.3175498,false
+nando's,49.0502826,-122.3175498,true
 steve's poké bar,49.0502814,-122.3177015,false
 jugo juice,49.2741294,-123.121871,false
 salsa and agave mexican grill,49.2741,-123.1219573,false
@@ -3078,7 +3074,7 @@ po kong,49.2505553,-123.0773106,false
 olove greek kitchen,49.2804925,-122.9779761,false
 subway,49.3737353,-123.2746745,true
 burger heaven,49.2012628,-122.9160264,false
-subway,49.0461526,-122.3593584,true
+subway,49.0461526,-122.3593584,false
 wendy's,49.1292582,-122.3204815,true
 moon cafe,49.2534133,-123.082088,false
 pho royal,49.2692484,-123.1459879,false
@@ -3093,7 +3089,7 @@ maria's taverna,49.2680988,-123.1580755,false
 mcdonald's,49.2683578,-123.1595125,true
 poké bar,49.1307777,-122.318057,false
 quiznos,49.1309188,-122.3195503,true
-chopped leaf,49.1309522,-122.319302,false
+chopped leaf,49.1309522,-122.319302,true
 corona's mexican restaurant,49.1304635,-122.3235243,false
 kfc,49.0385355,-122.270425,true
 tacofino,49.2682486,-123.1484496,false
@@ -3111,7 +3107,7 @@ mary brown's,49.2251047,-123.1018745,true
 chicko chicken,49.2251944,-123.0903824,false
 chicko chicken,49.2568805,-123.1849075,false
 yogi-yo,49.2630947,-123.1527749,false
-freshslice pizza,49.3280098,-123.1539437,false
+freshslice pizza,49.3280098,-123.1539437,true
 nishiki sushi,49.3279686,-123.1536521,false
 chez michel,49.3279573,-123.1535723,false
 dairy queen,49.2618324,-122.7816776,true
@@ -3136,7 +3132,7 @@ bangkok kitchen,49.1621967,-122.6593209,false
 chamnamoo korean restaurant,49.1633941,-122.6580103,false
 akane japanese restaurant,49.1633817,-122.6588882,false
 firecrust neopolitan pizzeria,49.2777744,-123.1275201,false
-freshslice pizza,49.2858144,-123.126964,false
+freshslice pizza,49.2858144,-123.126964,true
 guu garden,49.2799722,-123.125311,false
 freshslice,49.2081902,-123.1401339,false
 solo pasta,49.2081527,-123.1401353,false
@@ -3193,7 +3189,7 @@ neptune chinese kitchen,49.254194,-123.2360217,false
 tacos jorge at glitch bar,49.2641408,-123.156987,false
 mimi's burgers,49.2640559,-123.1569847,false
 bb.q chicken,49.2745142,-122.7900239,false
-lee's donuts,49.1145951,-122.6734593,false
+lee's donuts,49.1145951,-122.6734593,true
 tavern,49.2755314,-123.122013,false
 smokehouse sandwich co.,49.1698172,-123.1675486,false
 tilbury cafe,49.139437,-123.0115501,false
@@ -3209,7 +3205,7 @@ hotspot pizza,49.280093,-122.9818276,false
 prime time chicken,49.2811379,-123.0980681,false
 new brandi fast food,49.2811975,-123.1020736,false
 subway,49.2780845,-122.912071,true
-quesada,49.2777723,-122.9114568,false
+quesada,49.2777723,-122.9114568,true
 steve's poké bar,49.2778235,-122.911773,false
 pizza hut,49.2778577,-122.9119847,true
 browns socialhouse,49.2825398,-122.798527,false
@@ -3219,7 +3215,7 @@ subway,49.2415048,-123.0577897,true
 5 tastes,49.2660937,-123.2430436,false
 vera's burgers,49.2657903,-123.2432178,false
 subway,49.2659168,-123.2431691,true
-a&w,49.2664689,-123.2433848,false
+a&w,49.2664689,-123.2433848,true
 pizza garden,49.2664557,-123.2434869,false
 sushi bella,49.3124756,-123.0777481,false
 hadi's restaurant,49.1391144,-123.0122187,false
@@ -3235,12 +3231,12 @@ dake sushi japanese restaurant,49.0407869,-122.3369251,false
 d-hut pizza & more,49.0461321,-122.3365217,false
 loula's taverna + bar,49.2702991,-123.069427,false
 jos,49.2890203,-123.1221386,false
-a&w,49.1571359,-122.779182,false
+a&w,49.1571359,-122.779182,true
 booster juice,49.1321141,-123.0946175,true
 danny's wun tun restaurant,49.1321235,-123.0954421,false
-five guys,49.1321211,-123.0952282,false
+five guys,49.1321211,-123.0952282,true
 pho 37,49.1321183,-123.0949806,false
-nando's,49.3262139,-123.1359438,false
+nando's,49.3262139,-123.1359438,true
 bc donair,49.268189,-123.069879,false
 cactus club,49.2014501,-122.9819222,false
 samurai japanese restaurant,49.2805385,-123.1316982,false
@@ -3287,8 +3283,8 @@ mcdonald's,49.0580197,-122.3767398,true
 wendy's,49.0604509,-122.38281,true
 original joe's restaurant & bar,49.0504976,-122.326893,false
 dookbaeki,49.2774955,-122.791357,false
-earls station square,49.2280148,-123.002893,false
-popeyes,49.1188015,-122.8237596,false
+earls station square,49.2280148,-123.002893,true
+popeyes,49.1188015,-122.8237596,true
 subway,49.1187754,-122.8241543,true
 triple o's,49.1187811,-122.8245367,false
 pizza hut,49.133789,-122.8406633,true
@@ -3362,19 +3358,19 @@ boston pizza,49.2584314,-123.030685,true
 sushi town,49.2804975,-122.977749,false
 thai pudpong,49.3280894,-123.1560785,false
 pajo's,49.2800785,-122.8501,false
-thaigo,49.3250044,-123.1364242,false
+thaigo,49.3250044,-123.1364242,true
 new york fries,49.3250041,-123.1363632,true
 fortune wok,49.3250061,-123.1362827,false
 subway,49.3250647,-123.1362282,true
-vina vietnamese,49.3250943,-123.1362265,false
-a&w,49.3251225,-123.1362268,false
+vina vietnamese,49.3250943,-123.1362265,true
+a&w,49.3251225,-123.1362268,true
 opa! of greece,49.3251489,-123.1362279,true
-bourbon street grill,49.3251786,-123.1362279,false
+bourbon street grill,49.3251786,-123.1362279,true
 freshii,49.3252066,-123.1362289,true
-hiro japan xpress,49.325227,-123.1362027,false
-mr. pretzels,49.3250412,-123.1364007,false
+hiro japan xpress,49.325227,-123.1362027,true
+mr. pretzels,49.3250412,-123.1364007,true
 booster juice,49.325245,-123.1363322,true
-a&w,49.2613107,-122.78233,false
+a&w,49.2613107,-122.78233,true
 watt's for lunch cafe,49.2107733,-122.957649,false
 mcdonald's,49.2640388,-123.178066,true
 go canada,49.2741793,-123.1328565,false
@@ -3400,7 +3396,7 @@ classic uyghur savour,49.2395533,-123.030174,false
 852 kitchen,49.2396171,-123.030902,false
 famous chicken,49.0387162,-122.2939495,false
 subway,49.0385365,-122.2935247,true
-a&w,49.2858989,-123.1122871,false
+a&w,49.2858989,-123.1122871,true
 cora,49.2746568,-122.790996,true
 kojan sushi restaurant,49.0485303,-122.2928699,false
 the keg steakhouse + bar,49.0415627,-122.2777811,false
@@ -3408,7 +3404,7 @@ pelicana chicken,49.2791959,-123.116782,false
 sushi bros,49.2791657,-123.116741,false
 brooklyn nyc pizzeria,49.2790996,-123.1166316,false
 ricky's country - restaurant -,49.0374522,-122.3349482,false
-mucho burrito,49.1981032,-122.9791138,false
+mucho burrito,49.1981032,-122.9791138,true
 brown's socialhouse semiahmoo,49.0313533,-122.8014354,false
 sakura ichiban,49.3280992,-123.1546227,false
 wooden fish,49.3280928,-123.1545782,false
@@ -3428,24 +3424,24 @@ skyhawk restaurant,49.0806091,-123.0090664,false
 the deluxe chinese restaurant,49.182733,-123.1360714,false
 vallarta's mexican restaurant,49.2622994,-123.0447404,false
 ebisu on broadway,49.2639608,-123.1182504,false
-a&w,49.0418988,-123.0829669,false
+a&w,49.0418988,-123.0829669,true
 subway,49.0406229,-123.0871553,true
-nando's,49.0419035,-123.0853223,false
+nando's,49.0419035,-123.0853223,true
 wendy's,49.0404467,-123.0878766,true
 two stones grill,49.0408197,-123.0873284,false
 arby's,49.0399045,-123.0888623,true
 boston pizza,49.035275,-123.0884974,true
 milestones,49.0351515,-123.088867,false
-montana's,49.035036,-123.0876345,false
-popeyes,49.2546828,-122.7379283,false
+montana's,49.035036,-123.0876345,true
+popeyes,49.2546828,-122.7379283,true
 burger king,49.2533322,-122.7403668,true
-chopped leaf,49.2534148,-122.7397591,false
+chopped leaf,49.2534148,-122.7397591,true
 sushi 990,49.2580227,-122.7455975,false
 boston pizza,49.2563016,-122.7482111,true
 pallas athena greek kousina,49.2582216,-122.7487099,false
 sushi bar shyun,49.2581048,-122.748692,false
 izba bistro,49.2603054,-122.7577368,false
-eggspectation,49.1855406,-123.1080009,true
+eggspectation,49.1855406,-123.1080009,false
 dinesty dumpling house,49.1732885,-123.1465196,false
 com vietnamese,49.1741464,-123.1437955,false
 wasuta pasta,49.1776673,-123.146301,false
@@ -3477,15 +3473,15 @@ anatoli souvlaki,49.3106852,-123.0801966,false
 mcdonald's,49.3102299,-123.0836,true
 vua sandwiches,49.3099781,-123.08279,false
 colosseum pizza,49.3123621,-123.0793102,false
-nando's,49.3200814,-123.070244,false
+nando's,49.3200814,-123.070244,true
 subway,49.3208761,-123.0721449,true
 ga hyang ru,49.3190471,-123.0726675,false
 the portly chef,49.3191788,-123.0726464,false
 de dutch,49.2572846,-123.1269819,false
 joon's kitchen,49.2579918,-123.127169,false
 apollinia,49.269446,-123.140707,false
-mr. sub,49.2621478,-123.0447466,false
-a&w,49.3053018,-123.0316749,false
+mr. sub,49.2621478,-123.0447466,true
+a&w,49.3053018,-123.0316749,true
 no. 1 beef noodle,49.2424585,-123.003994,false
 saffron indian cuisine,49.2311658,-123.008436,false
 bonta italian ristorante,49.2799857,-123.130351,false
@@ -3512,23 +3508,23 @@ dhaliwal sweets & bakery,49.0501054,-122.3350431,false
 vegetarian delite bakery & delta pizza,49.049754,-122.3350518,false
 cedar park chaat house,49.0494837,-122.3350876,false
 patna sweets & chat,49.0492823,-122.3350743,false
-pizza 64,49.0527901,-122.3108694,false
+pizza 64,49.0527901,-122.3108694,true
 mr. sushi,49.3370081,-123.0393876,false
 ,49.3250592,-122.8866552,false
 villages pizza,49.2233608,-122.9431649,false
 ta-ke don,49.2631815,-123.1220615,false
-pizza hut express,49.197546,-123.178164,false
+pizza hut express,49.197546,-123.178164,true
 milestones,49.197361,-123.178806,false
 hanami,49.197646,-123.178346,false
 famous famiglia,49.197773,-123.178357,false
 subway,49.197857,-123.178461,true
-a&w,49.197921,-123.178503,false
+a&w,49.197921,-123.178503,true
 canucks bar & grill,49.1975941,-123.1741753,false
 koho restaurant | bar,49.195091,-123.17849,false
 nobu,49.3383279,-123.1032618,false
 subway,49.336875,-123.100831,true
 the windsor meat company,49.3378101,-123.1019802,false
-freshslice pizza,49.3376096,-123.1024103,false
+freshslice pizza,49.3376096,-123.1024103,true
 ,49.337816,-123.1026208,false
 subway,49.2509753,-123.1270905,true
 osaka sushi,49.2485254,-123.1256302,false
@@ -3536,31 +3532,31 @@ d-plus pizza,49.1495595,-122.891927,false
 the juice truck,49.2663756,-123.1054202,false
 the juice truck,49.2472168,-123.1009609,false
 the juice truck,49.1256201,-123.182905,false
-popeyes,49.038444,-122.274551,false
+popeyes,49.038444,-122.274551,true
 mcdonald's,49.2667185,-123.002065,true
 white spot,49.2819109,-123.1135011,true
 the spud shack fry co.,49.200885,-122.913047,false
 haan korean bbq,49.2758641,-122.794219,false
 d-plus pizza,49.1880039,-122.8465109,false
-freshslice pizza,49.1890794,-122.8474254,false
+freshslice pizza,49.1890794,-122.8474254,true
 subway,49.1445089,-123.003586,true
 subway,49.1330626,-123.0233446,true
 schnitzelz,49.0492389,-122.3012634,false
 panago,49.0492419,-122.3007789,true
 astro's kitchen,49.2588961,-122.9826424,false
 seiza japanese cuisine,49.2578769,-123.1009456,false
-freshslice pizza,49.2641666,-123.138328,false
+freshslice pizza,49.2641666,-123.138328,true
 zen japanese restaurant,49.330856,-123.172252,false
 dairy queen,49.1139702,-122.6699507,true
 big bang sushi,49.1725405,-123.0721954,false
 quiznos,49.1793429,-123.0695964,true
 quiznos,49.1144032,-122.6679644,true
-cactus club cafe,49.1129138,-122.668108,true
+cactus club cafe,49.1129138,-122.668108,false
 white spot,49.1130331,-122.665699,true
-nando's,49.1129178,-122.6625851,false
+nando's,49.1129178,-122.6625851,true
 ming & sing chinese express,49.1129314,-122.6657052,false
 olive garden,49.1129898,-122.666724,true
-montana's,49.1130445,-122.665058,false
+montana's,49.1130445,-122.665058,true
 dae-ji,49.2812547,-122.795885,false
 the 661,49.257296,-123.089704,false
 axum ethiopian restaurant,49.2815418,-123.0777932,false
@@ -3583,13 +3579,13 @@ camden food co.,49.1957529,-123.1843188,false
 rice tales,49.1957307,-123.1841942,false
 c&u vietnamese restaurant,49.1170758,-122.6795547,false
 sammy j's,49.1171597,-122.6718561,false
-mucho burrito,49.1182538,-122.6689137,false
+mucho burrito,49.1182538,-122.6689137,true
 coast restaurant,49.2847156,-123.1231168,false
 sushi nanaimo,49.281485,-123.0562148,false
 mcdonald's,49.2788264,-123.1155638,true
 papa john's,49.1946688,-122.844843,true
 dell lanes,49.1947506,-122.844843,false
-kfc-taco bell,49.280165,-122.7994621,false
+kfc-taco bell,49.280165,-122.7994621,true
 pastameli,49.3511063,-123.2537745,false
 subway,49.3511476,-123.253673,true
 eko-ya sushi,49.0273123,-123.0682236,false
@@ -3611,7 +3607,7 @@ sushi mania,49.2506156,-123.1011955,false
 livia forno e vino,49.272254,-123.0697908,false
 sawasdee thai restaurant,49.2470543,-123.1009591,false
 sophies cosmic cafe,49.2682468,-123.1525549,false
-popeyes,49.1330328,-123.0932818,false
+popeyes,49.1330328,-123.0932818,true
 marutama ra-men,49.2822606,-122.79351,false
 bubble waffle cafe,49.2677991,-123.0005781,false
 cazba persian grill,49.2680839,-123.001045,false
@@ -3630,7 +3626,7 @@ the black lodge,49.2629621,-123.0986057,false
 la mezcaleria,49.2821995,-123.1027434,false
 la mezcaleria,49.2701295,-123.0694291,false
 liziba chicken pot,49.2300918,-123.0037982,false
-popeyes,49.1917333,-123.0811267,false
+popeyes,49.1917333,-123.0811267,true
 fortune terrace joy cafe,49.2099129,-123.1182598,false
 dairy queen,49.2812728,-123.0461329,true
 manjal south indian kitchen,49.2232722,-122.943338,false
@@ -3646,19 +3642,19 @@ sushi nara,49.0447901,-122.2217464,false
 chopped leaf,49.0444502,-122.2217322,false
 freshslice pizza,49.0447393,-122.2217414,false
 pita pit,49.0545384,-122.3706645,false
-carl's jr.,49.0548927,-122.3714839,true
+carl's jr.,49.0548927,-122.3714839,false
 la forchetta,49.28049,-122.9821207,false
 little billy's,49.2805192,-122.9638207,false
 lost in the 50's burgers,49.2247481,-122.940354,false
-cactus club cafe,49.2666586,-123.0108132,true
-chipotle,49.2563659,-122.747394,false
+cactus club cafe,49.2666586,-123.0108132,false
+chipotle,49.2563659,-122.747394,true
 freshii,49.19063,-122.847976,true
 izumo sushi,49.1845619,-122.844598,false
 taste of africa,49.1963325,-122.845583,false
 hot chili house,49.0392551,-122.2920196,false
 pampanga's cuisine,49.2377816,-123.03266,false
 kumare express,49.2377414,-123.032693,false
-freshslice pizza,49.2378818,-123.031957,false
+freshslice pizza,49.2378818,-123.031957,true
 plato filipino,49.237816,-123.0326177,false
 sushi parlor japanese restaurant,49.0497599,-122.2917795,false
 pappa leo's,49.2160393,-122.5895255,false
@@ -3691,10 +3687,10 @@ pappa leo's pizza,49.2232512,-122.6901024,false
 pearl castle cafe,49.1856845,-123.1294413,false
 bin 4 burger lounge,49.2590431,-123.13851,false
 hiraku sushi,49.2927082,-122.7553174,false
-phở hòa,49.1916811,-122.8233993,false
+phở hòa,49.1916811,-122.8233993,true
 thai house restaurant,49.3115338,-123.0801501,false
 subway,49.272795,-122.789898,true
-nando's,49.2738174,-122.7924448,false
+nando's,49.2738174,-122.7924448,true
 jugo juice,49.2794266,-122.9158521,false
 changos,49.2786759,-122.9188781,false
 gawon,49.2786644,-122.9188032,false
@@ -3705,7 +3701,7 @@ chicky porky,49.2449451,-123.0241155,false
 quiznos,49.0242968,-122.267178,true
 mcdonald's,49.0353251,-122.2697044,true
 mcdonald's,49.2157729,-122.591045,true
-a&w,49.2162564,-122.5898977,false
+a&w,49.2162564,-122.5898977,true
 subway,49.0274027,-122.265932,true
 peek a boo japanese bistro,49.0263793,-123.070396,false
 domino's,49.0266186,-123.069696,true
@@ -3726,7 +3722,7 @@ hot pot master,49.2316595,-123.0308111,false
 pho fresh,49.032216,-123.0694502,false
 nasir's super donair,49.052252,-122.3753712,false
 pomodoro pizza,49.2642682,-122.7663452,false
-taco del mar,49.2648447,-122.771751,false
+taco del mar,49.2648447,-122.771751,true
 dinakis mediterranean grill,49.265264,-122.7727609,false
 sushi on,49.264721,-122.7710542,false
 anatolia express,49.2893941,-123.1148812,false
@@ -3746,7 +3742,7 @@ domino's,49.1048644,-122.7980234,true
 the boatshed ambleside,49.3250522,-123.150682,false
 arbab kabab house,49.2215249,-122.946085,false
 pizza pizza,49.1067026,-122.8014486,true
-five guys,49.1355602,-122.8893132,false
+five guys,49.1355602,-122.8893132,true
 the naam,49.2682381,-123.1669802,false
 kita sushi,49.2643278,-123.01281,false
 panago,49.2485878,-122.8185089,true
@@ -3759,7 +3755,7 @@ patterson wonton house,49.2787805,-123.128286,false
 uncle buck's,49.0380211,-123.0819027,false
 alvin garden,49.2218267,-122.994703,false
 pho quynh express,49.2694468,-123.10616,false
-pizza hut delivery,49.0411852,-122.2205715,false
+pizza hut delivery,49.0411852,-122.2205715,true
 crispy,49.3229652,-123.0991665,false
 yummy donair & kebab,49.3234467,-123.0993769,false
 carver's,49.1704316,-123.1463632,false
@@ -3821,21 +3817,20 @@ pizza garden,49.2750854,-123.0693141,false
 burdock & co,49.2609848,-123.1007601,false
 afghan kabob,49.1035082,-122.8001061,false
 ato sushi bar + kitchen,49.1035002,-122.8004753,false
-pizza twist,49.1041067,-122.7983556,false
-quesada,49.1035653,-122.7975026,false
+pizza twist,49.1041067,-122.7983556,true
+quesada,49.1035653,-122.7975026,true
 kfc,49.1142452,-122.6754884,true
-teriyaki experience,49.1144236,-122.6756725,false
+teriyaki experience,49.1144236,-122.6756725,true
 quiznos,49.1143101,-122.675676,true
-manchu wok,49.1143726,-122.6752938,false
-thaï express,49.114419,-122.675293,false
-the old spaghetti factory,49.0387465,-122.2689565,true
+manchu wok,49.1143726,-122.6752938,true
+thaï express,49.114419,-122.675293,true
 the old spaghetti factory,49.0387465,-122.2689565,true
 ,49.2035786,-122.8359744,false
 donair hub,49.1895759,-122.8478744,false
 say mercy,49.2467393,-123.0899723,false
 viet house,49.2546275,-123.1149411,false
 panago,49.2677289,-123.006245,true
-pita pit,49.2678061,-123.006243,false
+pita pit,49.2678061,-123.006243,true
 the mad italian pizza,49.1453453,-122.6477225,false
 noma sushi japanese restaurant,49.1456683,-122.649101,false
 banchan korean bistro 반찬,49.1459005,-122.648707,false
@@ -3871,7 +3866,7 @@ kw gardens restaurant,49.0449381,-122.791925,false
 horhay tex-mex,49.0448048,-122.7916738,false
 delhi delite indian cuisine & sweets,49.0472575,-122.7976578,false
 phở sunrise,49.0466542,-122.7985618,false
-quesada,49.045838,-122.7970156,false
+quesada,49.045838,-122.7970156,true
 alberto's pizza in south surrey white rock,49.046193,-122.7959589,false
 meltwich food co.,49.0428409,-122.7797211,false
 tuk-tuk bowen,49.3800545,-123.331355,false
@@ -3906,7 +3901,7 @@ the basic,49.2898568,-123.1376523,false
 craft beer market,49.286742,-123.14224,false
 tom khao thai cuisine,49.0491106,-122.289464,false
 greek fellas restaurant,49.1694,-122.914908,false
-pizza factory,49.1047611,-122.6609055,false
+pizza factory,49.1047611,-122.6609055,true
 bow & stern,49.0482761,-122.2905575,false
 pizza garden,49.2016654,-122.912995,false
 sushi koharu,49.2094288,-122.9330668,false
@@ -3948,7 +3943,7 @@ fishin' chips,49.0259086,-122.8009751,false
 nami japanese restaurant,49.0258664,-122.8019648,false
 ça marche,49.2745994,-123.130842,false
 aroy thai,49.2770401,-122.8489166,false
-mucho burrito,49.0386218,-122.2745401,false
+mucho burrito,49.0386218,-122.2745401,true
 chicko chicken,49.2192336,-122.950868,false
 mr. japanese curry,49.2638339,-123.1137006,false
 viet mama cafe,49.237956,-123.0651979,false
@@ -3988,7 +3983,7 @@ niagara falls resaurant,49.0914907,-123.087264,false
 chopped leaf,49.1654248,-122.6646457,false
 chopped leaf,49.2196157,-122.6569388,false
 best burrito,49.2631971,-123.1054335,false
-mucho burrito,49.0417051,-123.0830195,false
+mucho burrito,49.0417051,-123.0830195,true
 de dutch,49.0416362,-123.0830145,false
 simply pho,49.0407321,-123.087224,false
 ,49.040982,-123.0897646,false
@@ -4002,7 +3997,7 @@ bella roma,49.2636891,-123.2080917,false
 auto strada,49.2743885,-123.1309865,false
 fresco pizza & wings,49.1048822,-122.6518089,false
 sambal coconut malaysian szechuan cuisine,49.1445176,-123.0924467,false
-chicko chicken korean style,49.0500667,-122.290128,false
+chicko chicken korean style,49.0500667,-122.290128,true
 sushi aboard,49.2889319,-123.139514,false
 olympia pizza & pasta restaurant,49.2893872,-123.1383867,false
 pho q&m,49.2911324,-123.136202,false
@@ -4028,7 +4023,7 @@ domino's,49.2487101,-122.8585224,true
 south castle korean restaurant,49.2487268,-122.8601488,false
 boathouse,49.280924,-122.8505391,false
 bombay,49.2720535,-122.7890489,false
-browns social house,49.2680441,-123.1573309,false
+browns social house,49.2680441,-123.1573309,true
 the naam,49.2682325,-123.16698,false
 hart house restaurant,49.2383705,-122.96641,false
 obanhmi,49.169084,-123.1339168,false
@@ -4037,7 +4032,7 @@ bb.q chicken,49.1784718,-123.12687,false
 uno beef noodle,49.193049,-123.1296898,false
 shibuyatei japanese restaurant,49.1921742,-123.128384,false
 pizza pizza,49.1919509,-122.788943,true
-mary brown's,49.1919525,-122.7890205,true
+mary brown's,49.1919525,-122.7890205,false
 chuihong,49.1919486,-122.7878725,false
 tendon kohaku,49.2278826,-123.0034935,false
 kokoro tokyo mazesoba,49.2283275,-123.0030509,false
@@ -4061,9 +4056,9 @@ portobello ristorante,49.2809241,-123.013423,false
 phở pasteur restaurant,49.2812366,-123.0192871,false
 damiko sushi,49.0563471,-122.8043579,false
 panda szechuan chinese restaurant,49.0599661,-122.804148,false
-cactus club cafe,49.0604379,-122.8046596,true
+cactus club cafe,49.0604379,-122.8046596,false
 the keg,49.0611306,-122.801846,true
-c-lovers fish & chips,49.0500921,-122.79987,true
+c-lovers fish & chips,49.0500921,-122.79987,false
 yamako japanese restaurant,49.0467615,-122.7985439,false
 booster juice,49.0460944,-122.798505,true
 subway,49.2106878,-123.0930993,true
@@ -4075,7 +4070,7 @@ tino's pizza,49.1392429,-123.1383552,false
 yummy slice pizza,49.1400974,-123.138326,false
 aleph eatery,49.2848592,-123.0659373,false
 hi genki,49.2174667,-122.964601,false
-a&w,49.2383199,-123.031569,false
+a&w,49.2383199,-123.031569,true
 pearl house richmond,49.1819952,-123.06961,false
 quiznos,49.1813334,-123.0694791,true
 d-plus pizza,49.1759868,-122.801738,false
@@ -4088,11 +4083,11 @@ sushi bang,49.2647518,-123.1150811,false
 hifive chicken,49.2310623,-123.0067,false
 swagat indian sweets & restaurant,49.1757594,-122.801774,false
 donair castle,49.2176117,-122.6441674,false
-sangam indian cuisine・catering・pizza time,49.2176091,-122.64407,false
+sangam indian cuisine・catering・pizza time,49.2176091,-122.64407,true
 lee garden,49.2798058,-122.793455,false
 momiji japanese cuisine,49.3161959,-122.9682354,false
 freshii,49.1620182,-122.658642,true
-sushi i,49.1620357,-122.6586997,false
+sushi i,49.1620357,-122.6586997,true
 chitos chicken & beer,49.1620887,-122.6589154,false
 domino's,49.1620712,-122.658822,true
 vera's burger shack,49.2826581,-122.8253857,false
@@ -4124,7 +4119,7 @@ prairie cafe,49.1650525,-122.799192,false
 inchin's bamboo garden,49.1575909,-122.7801401,false
 mcdonald's,49.1616124,-122.791185,true
 ruben's restaurant & food store,49.1650157,-122.799088,false
-a&w,49.1342573,-122.886722,false
+a&w,49.1342573,-122.886722,true
 quiznos,49.1343232,-122.8885258,true
 kfc,49.1343226,-122.887236,true
 chili house restaurant,49.1149175,-122.6802485,false
@@ -4142,7 +4137,7 @@ zawa restaurant,49.276314,-123.0693487,false
 kojima sushi,49.2681011,-123.0694672,false
 oeb breakfast co.,49.2666619,-123.0007123,false
 dami sushi & korean restaurant,49.2504434,-123.034372,false
-a&w,49.2059386,-123.011028,false
+a&w,49.2059386,-123.011028,true
 krishnas curry and crepes house,49.0613465,-122.800062,false
 good bowl,49.1781487,-123.121683,false
 subway,49.1366741,-122.8869649,true
@@ -4150,20 +4145,20 @@ lucha libre taqueria,49.2793936,-123.123503,false
 m cafe,49.2781726,-122.8071838,false
 hyack sushi,49.2023953,-122.9126449,false
 columbia street sandwich company,49.20324,-122.9074639,false
-chipotle,49.2792846,-123.116924,false
+chipotle,49.2792846,-123.116924,true
 tacomio pick up window,49.2734319,-123.081868,false
 sumi korean restaurant,49.233586,-123.0653188,false
 hẻm 377,49.2386936,-123.065199,false
 acquafarina,49.2810385,-123.1151572,false
 browns crafthouse,49.2660772,-123.2485788,false
-haidilao hot pot,49.2640311,-123.176224,false
+haidilao hot pot,49.2640311,-123.176224,true
 me + crepe,49.2642236,-123.168976,false
 ramen densetsu,49.2642236,-123.1690861,false
 rice and noodle,49.2642344,-123.169477,false
 yakiniku on 9th,49.2642354,-123.1702069,false
 ajuker fried chicken,49.2453554,-122.893169,false
 bb.q chicken,49.2435344,-122.889606,false
-popeyes,49.1990353,-122.7781068,false
+popeyes,49.1990353,-122.7781068,true
 yuan's garden restaurant,49.1787192,-123.1349005,false
 chefhyve,49.2400109,-123.053597,false
 sushi town,49.3236111,-123.108246,false
@@ -4191,7 +4186,7 @@ the red lion bar & grill,49.3345678,-123.1803632,false
 dundarave sushi,49.3347387,-123.1811112,false
 raku japanese kitchen,49.3284362,-123.1635501,false
 tenton ramen & tonkatsu,49.328752,-123.1609555,false
-a&w,49.1631891,-122.873955,false
+a&w,49.1631891,-122.873955,true
 burger king,49.1632955,-122.8751658,true
 dosanko restaurant,49.2828996,-123.091936,false
 panago,49.1363212,-122.8897573,true
@@ -4221,7 +4216,7 @@ minemura sushi,49.3138087,-123.0784124,false
 nagoya,49.169641,-122.812621,false
 lee's express,49.169855,-122.812628,false
 gate-way pizza,49.1699048,-122.812622,false
-blenz kiosk,49.1793152,-122.8336811,false
+blenz kiosk,49.1793152,-122.8336811,true
 dairy queen,49.1743543,-122.8454271,true
 tandoor hub - curry & pizza,49.1741824,-122.845448,false
 taco bell,49.1673585,-122.800865,true
