@@ -28,7 +28,7 @@ def franchise_labeller(x):
         return False
     
 def main():
-    restaurants_osm = spark.read.json("../data/restaurants_from_osm.json.gz", schema=restaurants_osm_scheme)
+    restaurants_osm = spark.read.json("../CMPT353_project/data/restaurants_from_osm.json.gz", schema=restaurants_osm_scheme)
     
     
     labeller = functions.udf(lambda x: franchise_labeller(x))
@@ -39,12 +39,12 @@ def main():
     
     data = franchise_data
     #data = restaurants_osm.join(franchise_data.withColumn('is_franchise', lit(True)), 'name', 'left').fillna(False)
-    data.write.json("../data/restaurants_with_is_franchise", mode='overwrite', compression='gzip')
+    data.write.json("../CMPT353_project/data/restaurants_with_is_franchise", mode='overwrite', compression='gzip')
 
     
     save_coordinate = data.select(data['name'], data['lat'], data['lon'], data['is_franchise'])
     
-    save_coordinate.coalesce(1).write.format("com.databricks.spark.csv").option("header", "false").mode("overwrite").save("../data/save_coordinate.csv")
+    save_coordinate.coalesce(1).write.format("com.databricks.spark.csv").option("header", "false").mode("overwrite").save("../CMPT353_project/data/save_coordinate.csv")
     # save_coordinate.write.csv("../data/save_coordinate.csv")
  
 if __name__ == '__main__':

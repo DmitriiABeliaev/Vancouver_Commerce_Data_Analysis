@@ -1,0 +1,75 @@
+import sys
+import matplotlib.pyplot as plt
+from pyspark.sql.functions import lit
+assert sys.version_info >= (3, 5) # make sure we have Python 3.5+
+import geopandas as gpd
+import contextily as ctx
+from shapely.geometry import Point
+
+
+from pyspark.sql import SparkSession, functions, types, Row
+spark = SparkSession.builder.appName('OSM point of interest extracter').getOrCreate()
+assert spark.version >= '2.4' # make sure we have Spark 2.4+
+spark.sparkContext.setLogLevel('WARN')
+
+data_scheme = types.StructType([
+    types.StructField('lat', types.DoubleType(), nullable=False),
+    types.StructField('lon', types.DoubleType(), nullable=False),
+    types.StructField('timestamp', types.TimestampType(), nullable=False),
+    types.StructField('amenity', types.StringType(), nullable=False),
+    types.StructField('name', types.StringType(), nullable=True),
+    types.StructField('tags', types.MapType(types.StringType(), types.StringType()), nullable=False),
+    types.StructField('is_franchise', types.BooleanType(), nullable=False),
+])
+    
+
+def main():
+    coordinate_data = spark.read.csv("../CMPT353_project/data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
+    
+    # non_franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == False)
+    franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == True)
+
+    # non_franchise_data = non_franchise_data.toPandas()
+    franchise_data = franchise_data.toPandas()
+    # all_data = coordinate_data.toPandas()
+
+    
+    # non_franchise_data['lon'] = non_franchise_data['lon'].astype('float')
+    # non_franchise_data['lat'] = non_franchise_data['lat'].astype('float')
+    franchise_data['lon'] = franchise_data['lon'].astype('float')
+    franchise_data['lat'] = franchise_data['lat'].astype('float')
+
+    # print(franchise_data)
+
+    example_chain = franchise_data[franchise_data['name'] == "mcdonald's"]
+
+    # print(example_chain)
+
+    BBox = (-123.3000, -122.0000, 49.00, 49.3800)
+    
+    plt.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='b', s=10)
+    plt.title("ancouver McDonald's Restaurants Locations")
+    plt.savefig('../CMPT353_project/data/one_chain_scatterplot.png')
+
+
+    fig, (ax3) = plt.subplots(1)
+
+    ax3.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='r', s=10)
+    ax3.set_title("Vancouver McDonald's Restaurants Locations")
+    ax3.set_xlim(BBox[0],BBox[1])
+    ax3.set_ylim(BBox[2],BBox[3])
+    ax3.set_label('chained_restaurants')
+
+    img = plt.imread('../CMPT353_project/data/map.png')
+
+    # imgplot = ax1.imshow(img, zorder=0, extent= BBox)
+    imgplot = ax3.imshow(img, zorder=0, extent= BBox)
+
+    # plt.show()
+    plt.savefig('../CMPT353_project/data/one_chain_mapped.png')
+
+
+    
+
+if __name__ == '__main__':
+    main()
