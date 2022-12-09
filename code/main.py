@@ -90,18 +90,18 @@ def classify(data):
     zz = zz.astype(float)
     
     plt.figure(2)
-    img = plt.imread('../data/map.png')
+    img = plt.imread('../CMPT353_project/data/map.png')
     plt.imshow(img, zorder=0, extent= BBox)
     plt.contourf(yy, xx, zz, alpha=0.5, cmap='RdBu')
     #plt.title('RF (balanced)')
     #plt.title('Gaussian NB')
     plt.title('KNN (k=4)')
     #plt.show()
-    plt.savefig('../data/knn.png')#should change name to match model
+    plt.savefig('../CMPT353_project/data/knn.png')#should change name to match model
     
 
 def main():
-    coordinate_data = spark.read.csv("../data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
+    coordinate_data = spark.read.csv("../CMPT353_project/data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
     
     non_franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == False)
     franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == True)
@@ -143,14 +143,14 @@ def main():
     ax3.set_ylim(BBox[2],BBox[3])
     ax3.set_label('chained_restaurants')
 
-    img = plt.imread('../data/map.png')
+    img = plt.imread('../CMPT353_project/data/map.png')
 
     # imgplot = ax1.imshow(img, zorder=0, extent= BBox)
     imgplot = ax2.imshow(img, zorder=0, extent= BBox)
     imgplot = ax3.imshow(img, zorder=0, extent= BBox)
 
     # plt.show()
-    plt.savefig('../data/data_mapped.png')
+    plt.savefig('../CMPT353_project/data/data_mapped.png')
     
     classify(all_data)
 
