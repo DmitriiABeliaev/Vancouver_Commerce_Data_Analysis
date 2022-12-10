@@ -6,6 +6,17 @@ import geopandas as gpd
 import contextily as ctx
 from shapely.geometry import Point
 
+import numpy as np
+from numpy import hstack
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+
+
 
 
 from pyspark.sql import SparkSession, functions, types, Row
@@ -22,9 +33,75 @@ data_scheme = types.StructType([
     types.StructField('tags', types.MapType(types.StringType(), types.StringType()), nullable=False),
     types.StructField('is_franchise', types.BooleanType(), nullable=False),
 ])
+     
+def to_float(x):
+    if x == "false":
+        return 1 #1 for blue, 0 for red
+    elif x == "true":
+        return 0
+    else:
+        print("bad")
     
+def classify(data):
+    X = data[['lat','lon']]#.values
+    y = data['is_franchise']#.values
+    
+#models
+    X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.25, random_state=11)
+    
+    #rf
+    rf_model = make_pipeline(
+        StandardScaler(),
+        RandomForestClassifier(n_estimators=100, max_depth=3, min_samples_leaf=6, class_weight='balanced')
+    )
+    rf_model.fit(X_train, y_train)
+    print(rf_model.score(X_valid, y_valid))
+    
+    #gaussian nb
+    bayes_model = GaussianNB()
+    bayes_model.fit(X_train, y_train)
+    print(bayes_model.score(X_valid, y_valid))
+    
+    #knn
+    knn_model = KNeighborsClassifier(n_neighbors=4)
+    knn_model.fit(X_train, y_train)
+    print(knn_model.score(X_valid, y_valid))
+    
+    
+#plotting
+    BBox = (-123.3000, -122.0000, 49.00, 49.3800)
+    
+    x2 = np.linspace(49.00, 49.3800, 130)
+    y2 = np.linspace(-123.3000, -122.0000, 130)
+
+    xx, yy = np.meshgrid(x2, y2)
+    
+    xa, xb = xx.flatten(), yy.flatten()
+    xa, xb = xa.reshape((len(xa), 1)), xb.reshape((len(xb), 1))
+    grid = hstack((xa,xb))
+    
+    predictions = knn_model.predict(grid)#can change model
+    
+    zz = predictions.reshape(xx.shape)
+    func = np.vectorize(to_float)
+    zz = func(zz)
+    xx = xx.astype(float)
+    yy = yy.astype(float)
+    zz = zz.astype(float)
+    
+    plt.figure(2)
+    img = plt.imread('../CMPT353_project/data/map.png')
+    plt.imshow(img, zorder=0, extent= BBox)
+    plt.contourf(yy, xx, zz, alpha=0.5, cmap='RdBu')
+    #plt.title('RF (balanced)')
+    #plt.title('Gaussian NB')
+    plt.title('KNN (k=4)')
+    #plt.show()
+    plt.savefig('../CMPT353_project/data/knn.png')#should change name to match model
+    
+
 def main():
-    coordinate_data = spark.read.csv("../data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
+    coordinate_data = spark.read.csv("../CMPT353_project/data/save_coordinate.csv").toDF('name','lat', 'lon', 'is_franchise')
     
     non_franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == False)
     franchise_data = coordinate_data.filter(coordinate_data['is_franchise'] == True)
@@ -66,14 +143,16 @@ def main():
     ax3.set_ylim(BBox[2],BBox[3])
     ax3.set_label('chained_restaurants')
 
-    img = plt.imread('../data/map.png')
+    img = plt.imread('../CMPT353_project/data/map.png')
 
     # imgplot = ax1.imshow(img, zorder=0, extent= BBox)
     imgplot = ax2.imshow(img, zorder=0, extent= BBox)
     imgplot = ax3.imshow(img, zorder=0, extent= BBox)
 
     # plt.show()
-    plt.savefig('../data/data_mapped.png')
+    plt.savefig('../CMPT353_project/data/data_mapped.png')
+    
+    classify(all_data)
 
 if __name__ == '__main__':
     main()
