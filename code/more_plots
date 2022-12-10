@@ -7,6 +7,8 @@ import contextily as ctx
 from shapely.geometry import Point
 import folium
 from folium.plugins import HeatMap
+from plotnine import *
+from plotnine.stats import stat_density_2d
 
 
 from pyspark.sql import SparkSession, functions, types, Row
@@ -57,11 +59,23 @@ def main():
     plt.legend(['Non franchised data', 'Franchised data'])
     plt.savefig('../CMPT353_project/data/all_type_data_count_comparison.png')
 
-    # inspired by 
-    hmap = folium.Map(location=[49.2, -122.7], zoom_start=11)
-    hm_wide = HeatMap( list(zip(franchise_data['lat'].values, franchise_data['lon'].values)), min_opacity=0.2, radius=17, blur=15, max_zoom=1)
-    hmap.add_child(hm_wide)
-    hmap.save('../CMPT353_project/data/heat_map.html')
+    # inspired by https://stackoverflow.com/questions/64212580/how-to-bin-longitude-and-latitude-and-plot-the-density-of-the-bins
+    hmap1 = folium.Map(location=[49.2, -122.7], zoom_start=11)
+    hm_wide1 = HeatMap( list(zip(franchise_data['lat'].values, franchise_data['lon'].values)), min_opacity=0.2, radius=17, blur=15, max_zoom=1)
+    hmap1.add_child(hm_wide1)
+    hmap1.save('../CMPT353_project/data/chain_heat_map.html')
+
+    hmap2 = folium.Map(location=[49.2, -122.7], zoom_start=11)
+    hm_wide2 = HeatMap( list(zip(non_franchise_data['lat'].values, non_franchise_data['lon'].values)), min_opacity=0.2, radius=17, blur=15, max_zoom=1)
+    hmap2.add_child(hm_wide2)
+    hmap2.save('../CMPT353_project/data/non_chain_heat_map.html')
+
+    # inspired by https://www.earthdatascience.org/tutorials/visualize-2d-point-density-ggmap/
+    # p = (ggplot(aes(x = franchise_data['lon'].values, y = franchise_data['lat'].values))+ geom_point() + xlab('Longitude') + ylab('Latitude')+ ggtitle("Density of Franchised data") + stat_density_2d(aes(fill = '..level..'), alpha = .5, n = 300, geom = "polygon", data = franchise_data))
+    # ggsave(p, filename = 'franchised_data_ggplot.png', path = '../CMPT353_project/data')
+    p1 = (ggplot(aes(x = non_franchise_data['lon'].values, y = non_franchise_data['lat'].values))+ geom_point() + xlab('Longitude') + ylab('Latitude')+ggtitle("Density of Non-Franchised data") + stat_density_2d(aes(fill = '..level..'), alpha = .5, n = 300, geom = "polygon", data = non_franchise_data))
+    ggsave(p1, filename = 'non_franchised_data_ggplot.png', path = '../CMPT353_project/data')
+
 
     
 
