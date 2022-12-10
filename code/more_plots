@@ -5,6 +5,8 @@ assert sys.version_info >= (3, 5) # make sure we have Python 3.5+
 import geopandas as gpd
 import contextily as ctx
 from shapely.geometry import Point
+import folium
+from folium.plugins import HeatMap
 
 
 from pyspark.sql import SparkSession, functions, types, Row
@@ -47,11 +49,6 @@ def main():
 
     plt.figure()
 
-    # non_franchise_data_count['counts'].hist(label = "None franchise locations", color='red')
-    # franchise_data_count['counts'].hist(label = "Franchise locations", color='blue')
-    # plt.title("All type locations")
-    # plt.show()
-
     plt.plot(non_franchise_data_count['counts'], color='red')
     plt.plot(franchise_data_count['counts'], color='blue')
     plt.title("All type locations")
@@ -60,31 +57,11 @@ def main():
     plt.legend(['Non franchised data', 'Franchised data'])
     plt.savefig('../CMPT353_project/data/all_type_data_count_comparison.png')
 
-    # all_data['lon'] = all_data['lon'].astype('float')
-    # all_data['lat'] = all_data['lat'].astype('float')
-    
-
-    # plt.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='b', s=10)
-    # plt.title("ancouver McDonald's Restaurants Locations")
-    # plt.savefig('../CMPT353_project/data/one_chain_scatterplot.png')
-
-
-    # fig, (ax3) = plt.subplots(1)
-
-    # ax3.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='r', s=10)
-    # ax3.set_title("Vancouver McDonald's Restaurants Locations")
-    # ax3.set_xlim(BBox[0],BBox[1])
-    # ax3.set_ylim(BBox[2],BBox[3])
-    # ax3.set_label('chained_restaurants')
-
-    # img = plt.imread('../CMPT353_project/data/map.png')
-
-    # imgplot = ax1.imshow(img, zorder=0, extent= BBox)
-    # imgplot = ax3.imshow(img, zorder=0, extent= BBox)
-
-    # plt.show()
-    # plt.savefig('../CMPT353_project/data/one_chain_mapped.png')
-
+    # inspired by 
+    hmap = folium.Map(location=[49.2, -122.7], zoom_start=11)
+    hm_wide = HeatMap( list(zip(franchise_data['lat'].values, franchise_data['lon'].values)), min_opacity=0.2, radius=17, blur=15, max_zoom=1)
+    hmap.add_child(hm_wide)
+    hmap.save('../CMPT353_project/data/heat_map.html')
 
     
 

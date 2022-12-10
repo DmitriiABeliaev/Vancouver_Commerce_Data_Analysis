@@ -48,7 +48,9 @@ def main():
     BBox = (-123.3000, -122.0000, 49.00, 49.3800)
     
     plt.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='b', s=10)
-    plt.title("ancouver McDonald's Restaurants Locations")
+    plt.xlabel('longitude')
+    plt.ylabel('latitude')
+    plt.title("Vancouver McDonald's Restaurants Locations")
     plt.savefig('../CMPT353_project/data/one_chain_scatterplot.png')
 
 
@@ -56,6 +58,8 @@ def main():
 
     ax3.scatter(example_chain['lon'], example_chain['lat'], zorder=1, alpha= 0.5, c='r', s=10)
     ax3.set_title("Vancouver McDonald's Restaurants Locations")
+    ax3.set_xlabel('longitude')
+    ax3.set_ylabel('latitude')
     ax3.set_xlim(BBox[0],BBox[1])
     ax3.set_ylim(BBox[2],BBox[3])
     ax3.set_label('chained_restaurants')
